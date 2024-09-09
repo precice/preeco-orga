@@ -33,7 +33,7 @@ We distinguish between three levels: bronze, silver, and gold.
 
 We consider an adapter fulfilling all of these criteria as *Findable* and *Accessible*. This means that the adapter is working and documented. Others can find, build, and run the code, and they are able to understand what is does.
 
-- [ ] The adapter is accompanied by at least one application case to test it (either through independent application case or included in adapter).
+- [ ] The adapter is accompanied by at least one application case to test it, covering at least a defined minimum functionality. The test case can be provided as an independent application case or included in the adapter.
 - [ ] There is a `README.md` file.
 - [ ] At least the following information is contained in the `README.md` file, or in a similar place:
   - [ ] application background and/or nature of coupling (e.g., surface vs. volume coupling; transient or steady-state; ...)
@@ -65,6 +65,7 @@ We consider an adapter fulfilling all of these criteria as *Findable* and *Acces
 
 We consider an adapter fulfilling all of these criteria as *Interoperable* and *maintainable*. The adapter plays well with other adapters from the community and feels part of the preCICE ecosystem. The preCICE maintainers are, if necessary, able to maintain the adapter (e.g. update it to newer preCICE versions).
 
+- [ ] The adapter is accompanied by one or more application cases to test it, covering the complete claimed functionality. These test cases can be provided as independent application cases.
 - [ ] The adapter configuration covers the mesh name, data names, participant name, and name of the preCICE configuration file.
 - [ ] In the adapter configuration, standard names are possible for the coupled data (e.g., `Displacement`).
 - [ ] There is a clearly defined code style and a provided formatter (e.g., clang-format specification file).
