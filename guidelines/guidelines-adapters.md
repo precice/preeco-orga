@@ -45,13 +45,13 @@ We consider an adapter fulfilling all of these criteria as *Findable* and *Acces
   - [ ] how to run the accompanying application test case
   - [ ] geometry assumptions and limitations:
     - number of dimensions
-    - assumption on "dead axis" for lower dimensions
+    - assumptions on out-of-plane axis for lower dimensions
     - support for only a single or also multiple patches
   - [ ] which preCICE features are supported or not supported. Curated list including:
     - implicit coupling
     - mesh connectivity
     - data initialization
-    - subcycling
+    - subcycling: `dt = min(dt_solver, dt_precice)`
     - multiple meshes
   - [ ] restrictions on solver features
     - e.g., cannot be run in parallel or cannot use adaptive time stepping or cannot use higher-order elements
