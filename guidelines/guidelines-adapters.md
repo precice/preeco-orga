@@ -14,6 +14,10 @@ We distinguish between **metadata** and **best practices**, with three levels: b
 We are only in the beginning of this standardization journey. Do you have ideas that would make your life easier and integrating your adapter smoother? Comment in [this issue](https://github.com/precice/preeco-orga/issues/7), or click "Edit" to suggest a change in this page.
 {% endtip  %}
 
+{% tip %}
+Applying for research funding? Mention in your proposal which level you are planning to achieve during your planned project and how.
+{% endtip  %}
+
 ## Metadata
 
 - Name of the target solver
