@@ -56,8 +56,8 @@ We consider an adapter fulfilling all of these criteria as *Findable* and *Acces
   - [ ] restrictions on solver features
     - e.g., cannot be run in parallel or cannot use adaptive time stepping or cannot use higher-order elements
   - [ ] how to cite
-- [ ] The adapter has a clear license
-- [ ] The adapter uses a version control system (open is optional).
+- [ ] The adapter has a clear license (open is optional, but strongly encouraged).
+- [ ] The adapter uses a version control system (public is optional, but strongly encouraged).
 - [ ] The adapter uses a versioning scheme, such as [semantic versioning](https://semver.org/) (or other clearly defined scheme).
 - [ ] The adapter has comments and error messages for at least its main building blocks and entry points. These comments are in English.
 
@@ -66,6 +66,8 @@ We consider an adapter fulfilling all of these criteria as *Findable* and *Acces
 We consider an adapter fulfilling all of these criteria as *Interoperable* and *maintainable*. The adapter plays well with other adapters from the community and feels part of the preCICE ecosystem. The preCICE maintainers are, if necessary, able to maintain the adapter (e.g. update it to newer preCICE versions).
 
 - [ ] The adapter is accompanied by one or more application cases to test it, covering the complete claimed functionality. These test cases can be provided as independent application cases.
+- [ ] The adapter has a clear open-source license.
+- [ ] The adapter uses a publicly-accessible version control system.
 - [ ] The adapter configuration covers the mesh name, data names, participant name, and name of the preCICE configuration file.
 - [ ] In the adapter configuration, standard names are possible for the coupled data (e.g., `Displacement`).
 - [ ] There is a clearly defined code style and a provided formatter (e.g., clang-format specification file).
