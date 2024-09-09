@@ -65,7 +65,8 @@ We consider an adapter fulfilling all of these criteria as *Findable* and *Acces
 
 We consider an adapter fulfilling all of these criteria as *Interoperable* and *maintainable*. The adapter plays well with other adapters from the community and feels part of the preCICE ecosystem. The preCICE maintainers are, if necessary, able to maintain the adapter (e.g. update it to newer preCICE versions).
 
-- [ ] The adapter is accompanied by one or more application cases to test it, covering the complete claimed functionality. These test cases can be provided as independent application cases.
+- [ ] The adapter is accompanied by one or more application cases to test it, covering the complete claimed functionality. These test cases must be provided as independent application cases.
+- [ ] The documentation provides references to related studies or literature necessary to understand the modeling and implementation (at least in submitted or preprint state).
 - [ ] The adapter has a clear open-source license.
 - [ ] The adapter uses a publicly-accessible version control system.
 - [ ] The adapter configuration covers the mesh name, data names, participant name, and name of the preCICE configuration file.
@@ -84,12 +85,12 @@ We consider an adapter fulfilling all of these criteria as *Interoperable* and *
 
 We consider an adapter fulfilling all of these criteria as *Reusable*, *community-ready*, and *integrated*. Others can easily reuse and extend the adapter for their own needs. Maintaining the adapter could be shared among many. We can integrate the adapter and corresponding application cases into our development workflows and make sure that we will not break it. All tooling works seamlessly.
 
+- [ ] There is a peer-reviewed paper (at least in submitted or pre-print state) with a validation study, with all data available.
 - [ ] There are contribution guidelines described or linked from a `CONTRIBUTING.md` file.
 - [ ] There is a pull request template.
 - [ ] The configuration follows a formally defined schema.
 - [ ] There are unit tests (ideally, using the upcoming "fake preCICE" implementation).
 - [ ] The repository is ready to be integrated into the [preCICE system tests](https://precice.org/dev-docs-system-tests.html).
-- [ ] There is a peer-reviewed paper with a validation study.
 - [ ] There is documentation on how to extend the adapter (i.e., documentation about the software architecture).
 - [ ] The adapter is packaged either on the expected repositories of the respective solver community, or on [Spack](https://spack.io/) ([Spack packages](https://packages.spack.io/)).
 
