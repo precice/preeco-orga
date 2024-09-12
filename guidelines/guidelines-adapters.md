@@ -2,7 +2,7 @@
 title: Guidelines for adapters
 permalink: community-guidelines-adapters.html
 keywords: contribute, develop, adapters
-summary: A set of quality guidelines for preCICE adapters and related tools
+summary: Quality guidelines and standards for preCICE adapters and related tools
 toc: true
 ---
 
