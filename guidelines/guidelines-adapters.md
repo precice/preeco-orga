@@ -26,7 +26,7 @@ Applying for research funding? Mention in your proposal which level you are plan
 ## Metadata
 
 - M.1: Name of the target solver
-- M.2: Available via (URL)
+- M.2: URL of the adapter
 - M.3: License
 - M.4: Original developers
 - M.5: Current maintainers, including contact information
