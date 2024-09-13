@@ -86,7 +86,7 @@ We consider an application case fulfilling all of these criteria as *Findable* a
   - [ ] physics of the case: the setup including a simple sketch, boundary conditions, ...
   - [ ] list of dependencies with versions
   - [ ] how to build solvers if necessary
-  - [ ] how to run the case including approximate run time (e.g. a few minutes on a laptop or several hours on a cluster with 128 MPI ranks) and system-specific configuration (e.g. `network="inf0"` in `m2n`) if necessary
+  - [ ] how to run the case including approximate run time (e.g. a few minutes on a laptop or several hours on a cluster with 128 MPI ranks) and system-specific configuration (e.g. `network="ib0"` in `m2n`) if necessary
   - [ ] how to check the expected outcome, at least qualitatively (e.g. preCICE watchpoint or visualization screenshot)
   - [ ] how to clean the case
   - [ ] how the case was created (e.g. how geometries and meshes were created)
