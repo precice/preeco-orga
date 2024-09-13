@@ -26,11 +26,11 @@ By submitting your data publication for review, you can expect a thorough check 
 
 {% tip %}
 We are only in the beginning of this standardization journey. Do you have ideas that would make your life easier and or do want to change the guidelines? Comment in [this issue](https://github.com/precice/preeco-orga/issues/6), or click "Edit" to suggest a change in this page.
-{% endtip  %}
+{% endtip %}
 
 {% tip %}
 Applying for research funding? Mention in your proposal which level you are planning to achieve during your planned project and how.
-{% endtip  %}
+{% endtip %}
 
 ## Metadata
 
@@ -79,7 +79,7 @@ If an application case includes several experiments, they can be structured in i
 
 ### Bronze
 
-We consider an application case fulfilling all of these criteria as *Findable* and *Accessible*. This means that the case is working and documented. Others can find the case and all prerequisites, build all necessary components, and run the case. To guarantee a low entry barrier, it should not be necessary to install any additional tools only to fulfil the guidelines (such as the config visualizer or some formatter).
+We consider an application case fulfilling all of these criteria as *Findable* and *Accessible*. This means that the case is working and documented. Others can find the case and all prerequisites, build all necessary components, and run the case.
 
 - [ ] B.1: All coupled solvers are available (open or commercial)
 - [ ] B.2: There is a `README.md` file with at least the following information:
@@ -91,6 +91,10 @@ We consider an application case fulfilling all of these criteria as *Findable* a
   - [ ] how to clean the case
   - [ ] how the case was created (e.g. how geometries and meshes were created)
 - [ ] B.3: The preCICE configuration passes the [offline check](tooling-builtin.html#configuration-check)
+
+{% note %}
+To guarantee a low entry barrier, it should not be necessary to install any additional tools only to fulfil the bronze guidelines (such as the config visualizer or some formatter).
+{% endnote %}
 
 ### Silver
 
