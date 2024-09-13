@@ -90,7 +90,7 @@ We consider an application case fulfilling all of these criteria as *Findable* a
   - [ ] how to check the expected outcome, at least qualitatively (e.g. preCICE watchpoint or visualization screenshot)
   - [ ] how to clean the case
   - [ ] how the case was created (e.g. how geometries and meshes were created)
-- [ ] B.3: preCICE configuration passes [offline check](tooling-builtin.html#configuration-check)
+- [ ] B.3: The preCICE configuration passes the [offline check](tooling-builtin.html#configuration-check)
 
 ### Silver
 
