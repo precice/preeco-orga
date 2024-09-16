@@ -143,7 +143,7 @@ We consider an application case fulfilling all of these criteria as *Interoperab
   - Mesh names concatenate the participant name and `-Mesh`, e.g. `Fluid-Mesh`.
     - Mesh names of participants with multiple interfaces contain the interface in the mesh name, e.g. `Fluid-Upstream-Mesh`. For meshes on which it is important to distinguish between face centers and face nodes (or similar), the modifier comes at the end, e.g. `Fluid-Upstream-Mesh-Centers`.
   - Watchpoint names should be describing the point, not be a generic name.
-- [ ] S.8 Any vertices defined through `setMeshVertex` or `setMeshVertices` need to be real locations in space and the data written to the mesh needs to be data located there, i.e. it is not allowed to decode any other information.
+- [ ] S.8 Any vertices defined through `setMeshVertex` or `setMeshVertices` need to be real locations in space and the data written to the mesh needs to be data located there, i.e., it is not allowed to decode any other information.
 - [ ] S.9 The case needs to have a DOI.
 
 ### Gold
