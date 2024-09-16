@@ -150,7 +150,7 @@ We consider an application case fulfilling all of these criteria as *Interoperab
 
 We consider an application case fulfilling all of these criteria as *Reusable*, *reproducible*, and *integrated*. We can integrate the case into our development workflows and make sure that we will not break it. Other users can easily reuse and extend the case for their own needs, including adding further solvers. All tooling works seamlessly.
 
-- [ ] G.1: The case is ready to be integrated into the [preCICE system tests](https://precice.org/dev-docs-system-tests.html).
+- [ ] G.1: The case is ready to be integrated into the [preCICE system tests](https://precice.org/dev-docs-system-tests.html): It includes a `metadata.yaml` file, as described in the system tests documentation.
 - [ ] G.2: The case either includes or links to full results, including documented versions of all dependencies
 - [ ] G.3: If possible, there is a "coarse" variant of the case to run on a laptop.
 - [ ] G.4: There are exports to replay each participant with [ASTE](https://precice.org/tooling-aste.html#replay-mode).
