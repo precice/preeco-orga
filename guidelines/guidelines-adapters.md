@@ -98,7 +98,7 @@ We consider an adapter fulfilling all of these criteria as *Reusable*, *communit
 - [ ] G.2: There are contribution guidelines described in or linked from a `CONTRIBUTING.md` file.
 - [ ] G.3: There is a pull request template.
 - [ ] G.4: The configuration follows a formally defined schema.
-- [ ] G.5: There are unit tests (ideally, using the upcoming "fake preCICE" implementation).
+- [ ] G.5: There are unit tests to test components of the adapter, without running another simulation participant (and ideally, using the upcoming [general mocked interface](https://github.com/precice/preeco-orga/issues/4)).
 - [ ] G.6: The repository is ready to be integrated into the [preCICE system tests](https://precice.org/dev-docs-system-tests.html): A simulation can start using an unsupervised script and there is enough information to create entries under `component-templates/` and `components.yaml`.
 - [ ] G.7: There is documentation on how to extend the adapter (i.e., documentation about the software architecture).
 - [ ] G.8: The adapter is packaged either on the expected repositories of the respective solver community, or on [Spack](https://spack.io/) ([Spack packages](https://packages.spack.io/)).
