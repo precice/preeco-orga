@@ -145,6 +145,7 @@ We consider an application case fulfilling all of these criteria as *Interoperab
   - Watchpoint names should be describing the point, not be a generic name.
 - [ ] S.8 Any vertices defined through `setMeshVertex` or `setMeshVertices` need to be real locations in space and the data written to the mesh needs to be data located there, i.e., it is not allowed to decode any other information.
 - [ ] S.9 The case needs to have a DOI.
+- [ ] S.10 The case runs with released versions of preCICE and related components, without any modifications.
 
 ### Gold
 
