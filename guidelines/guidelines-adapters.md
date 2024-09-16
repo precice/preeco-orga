@@ -112,13 +112,13 @@ Metadata:
 
 Bronze:
 
-- [x] B.1: See https://precice.org/quickstart.html
-- [x] B.2: See https://github.com/precice/openfoam-adapter/blob/develop/README.md
-- [x] B.3: All information is available either in the `README.md` or the [respective documentation](https://precice.org/adapter-openfoam-overview.html).
-- [x] B.4: The adapter has a clear license (open is optional, but strongly encouraged).
-- [x] B.5: The adapter uses a version control system (public is optional, but strongly encouraged).
-- [x] B.6: The adapter uses a versioning scheme, such as [semantic versioning](https://semver.org/) (or other clearly defined scheme).
-- [x] B.7: The adapter has comments and error messages for at least its main building blocks and entry points. These comments are in English.
+- [x] B.1: https://precice.org/quickstart.html
+- [x] B.2: https://github.com/precice/openfoam-adapter/blob/develop/README.md
+- [x] B.3: https://precice.org/adapter-openfoam-overview.html
+- [x] B.4: https://github.com/precice/openfoam-adapter/blob/develop/LICENSE
+- [x] B.5: https://github.com/precice/openfoam-adapter (public)
+- [x] B.6: https://precice.org/adapter-openfoam-get.html#what-does-the-adapter-version-mean
+- [x] B.7: See, for example, https://github.com/precice/openfoam-adapter/blob/develop/Adapter.H
 
 Silver:
 
