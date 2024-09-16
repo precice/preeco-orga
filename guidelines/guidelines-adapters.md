@@ -95,7 +95,7 @@ We consider an adapter fulfilling all of these criteria as *Interoperable* and *
 We consider an adapter fulfilling all of these criteria as *Reusable*, *community-ready*, and *integrated*. Others can easily reuse and extend the adapter for their own needs. Maintaining the adapter could be shared among many. We can integrate the adapter and corresponding application cases into our development workflows and make sure that we will not break it. All tooling works seamlessly.
 
 - [ ] G.1: There is a peer-reviewed paper (at least in pre-print state) with a validation study, with all data available.
-- [ ] G.2: There are contribution guidelines described or linked from a `CONTRIBUTING.md` file.
+- [ ] G.2: There are contribution guidelines described in or linked from a `CONTRIBUTING.md` file.
 - [ ] G.3: There is a pull request template.
 - [ ] G.4: The configuration follows a formally defined schema.
 - [ ] G.5: There are unit tests (ideally, using the upcoming "fake preCICE" implementation).
