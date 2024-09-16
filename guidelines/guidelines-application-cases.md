@@ -39,7 +39,7 @@ Applying for research funding? Mention in your proposal which level you are plan
 - M.3: License
 - M.4: Authors, including contact information
 - M.5: Coupled solvers, including used versions
-- M.6: Used preCICE version, including build config if different from default
+- M.6: Used preCICE version (release/branch/commit), including build config if different from default
 - M.7: Short description of the case (max 300 characters)
 - M.8: (Optional) URL of development repository
 - M.9: (Optional) Related publication
