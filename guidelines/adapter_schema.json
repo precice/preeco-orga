@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "participant_name": {
+      "type": "string",
+      "description": "Name of the participant.",
+      "default": "Fluid"
+    },
+    "config_file_name": {
+      "type": "string",
+      "description": "Path to the configuration file.",
+      "default": "../precice-config.xml"
+    },
+    "interfaces": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "mesh_name": {
+            "type": "string",
+            "description": "Name of the mesh associated with this interface.",
+            "default": "Fluid-Mesh"
+          },
+          "write_data_names": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "default": "Force"
+            },
+            "description": "List of data fields to be written on this mesh."
+          },
+          "read_data_names": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "default": "Displacement"
+            },
+            "description": "List of data fields to be read on this mesh."
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "participant_name",
+    "config_file_name",
+    "interfaces"
+  ],
+  "title": "preCICE Adapter Schema"
+}
