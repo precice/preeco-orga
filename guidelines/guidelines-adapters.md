@@ -28,11 +28,11 @@ Applying for research funding? Mention in your proposal which level you are plan
 - M.1: Name of the target solver
 - M.2: URL of the adapter
 - M.3: License
-- M.4: Original developers
+- M.4: Original developers (**TODO:** What does "original" mean? Who do we include? Do we include the institution? Which?)
 - M.5: Current maintainers, including contact information
-- M.6: How to cite
+- M.6: How to cite (DOI or full information)
 - M.7: Type of adapter (curated list: stand-alone, patch, integrated, ...)
-- M.8: Available versions
+- M.8: Available versions (**TODO:** Is this supposed to be an extensive list?)
 
 ## Best practices
 
@@ -105,4 +105,52 @@ We consider an adapter fulfilling all of these criteria as *Reusable*, *communit
 
 ## An example
 
-TODO: Explain how, e.g., the OpenFOAM adapter conforms to these criteria.
+The OpenFOAM adapter currently reaches Bronze level conformity, even if it already satisfies many of the higher-level criteria.
+
+Metadata:
+
+- M.1: OpenFOAM
+- M.2: https://precice.org/adapter-openfoam-overview.html
+- M.3: GPL-3.0
+- M.4: Gerasimos Chourdakis
+- M.5: Gerasimos Chourdakis <gerasimos.chourdakis@ipvs.uni-stuttgart.de>, David Schneider <david.schneider@ipvs.uni-stuttgart.de>
+- M.6: https://doi.org/10.51560/ofj.v3.88
+- M.7: library
+- M.8: v1.3.0
+
+Bronze:
+
+- [x] B.1: See https://precice.org/quickstart.html
+- [x] B.2: See https://github.com/precice/openfoam-adapter/blob/develop/README.md
+- [x] B.3: All information is available other in the `README.md` or the respective documentation
+- [x] B.4: The adapter has a clear license (open is optional, but strongly encouraged).
+- [x] B.5: The adapter uses a version control system (public is optional, but strongly encouraged).
+- [x] B.6: The adapter uses a versioning scheme, such as [semantic versioning](https://semver.org/) (or other clearly defined scheme).
+- [x] B.7: The adapter has comments and error messages for at least its main building blocks and entry points. These comments are in English.
+
+Silver:
+
+- [x] S.1: Several application cases are available as tutorials. The application cases list is not yet available.
+- [x] S.2: https://doi.org/10.51560/ofj.v3.88
+- [x] S.3: GPL-3.0
+- [x] S.4: https://github.com/precice/openfoam-adapter
+- [x] S.5: https://precice.org/adapter-openfoam-config.html
+- [x] S.6: https://precice.org/adapter-openfoam-config.html
+- [x] S.7: https://github.com/precice/openfoam-adapter/blob/develop/.clang-format
+- [x] S.8: https://github.com/precice/openfoam-adapter/blob/develop/CHANGELOG.md
+- [x] S.9: https://github.com/precice/openfoam-adapter/issues
+- [ ] S.10: There is information on how the adapter was validated and how validation could be reproduced.
+- [x] S.11: on precice.org
+- [x] S.12: public
+- [ ] S.13: only at compile-time
+
+Gold:
+
+- [x] G.1: https://doi.org/10.51560/ofj.v3.88
+- [x] G.2: https://github.com/precice/openfoam-adapter/blob/develop/CONTRIBUTING.md
+- [x] G.3: https://github.com/precice/openfoam-adapter/blob/develop/.github/pull_request_template.md
+- [ ] G.4: (schema not available yet)
+- [ ] G.5: There are no unit tests
+- [x] G.6: Already integrated into the system tests
+- [x] G.7: https://precice.org/adapter-openfoam-extend.html
+- [x] G.8: https://packages.spack.io/package.html?name=of-precice
