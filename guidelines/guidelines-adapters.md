@@ -52,10 +52,7 @@ We consider an adapter fulfilling all of these criteria as *Findable* and *Acces
   - [ ] how to build
   - [ ] how to configure (including the coupling data, if available)
   - [ ] how to run the accompanying application test case
-  - [ ] geometry assumptions and limitations:
-    - number of dimensions
-    - assumptions on out-of-plane axis for lower dimensions
-    - support for only a single or also multiple patches
+  - [ ] geometry assumptions and limitations, e.g., number of dimensions, assumptions on out-of-plane axis for lower dimensions, or support for only a single or also multiple patches.
   - [ ] which preCICE features are supported or not supported. Curated list including:
     - implicit coupling
     - mesh connectivity
