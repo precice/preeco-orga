@@ -28,11 +28,9 @@ Applying for research funding? Mention in your proposal which level you are plan
 - M.1: Name of the target solver
 - M.2: URL of the adapter
 - M.3: License
-- M.4: Original developers (**TODO:** What does "original" mean? Who do we include? Do we include the institution? Which?)
-- M.5: Current maintainers, including contact information
-- M.6: How to cite (DOI or full information)
-- M.7: Type of adapter (curated list: stand-alone, patch, integrated, ...)
-- M.8: Available versions (**TODO:** Is this supposed to be an extensive list?)
+- M.4: Contact
+- M.5: How to cite (DOI or full information)
+- M.6: Type of adapter (curated list: stand-alone, library, patch, integrated, ...)
 
 ## Best practices
 
@@ -108,11 +106,9 @@ Metadata:
 - M.1: OpenFOAM
 - M.2: https://precice.org/adapter-openfoam-overview.html
 - M.3: GPL-3.0
-- M.4: Gerasimos Chourdakis
-- M.5: Gerasimos Chourdakis <gerasimos.chourdakis@ipvs.uni-stuttgart.de>, David Schneider <david.schneider@ipvs.uni-stuttgart.de>
-- M.6: https://doi.org/10.51560/ofj.v3.88
-- M.7: library
-- M.8: v1.3.0
+- M.4: Gerasimos Chourdakis <gerasimos.chourdakis@ipvs.uni-stuttgart.de>, David Schneider <david.schneider@ipvs.uni-stuttgart.de>
+- M.5: https://doi.org/10.51560/ofj.v3.88
+- M.6: library
 
 Bronze:
 
