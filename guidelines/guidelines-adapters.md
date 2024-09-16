@@ -97,7 +97,7 @@ We consider an adapter fulfilling all of these criteria as *Reusable*, *communit
 - [ ] G.1: There is a peer-reviewed paper (at least in pre-print state) with a validation study, with all data available.
 - [ ] G.2: There are contribution guidelines described in or linked from a `CONTRIBUTING.md` file.
 - [ ] G.3: There is a pull request template.
-- [ ] G.4: The configuration follows a formally defined schema, which will be available in the future.
+- [ ] G.4: The configuration follows a formally defined schema, which [will be available in the future](https://github.com/precice/preeco-orga/issues/18).
 - [ ] G.5: There are unit tests to test components of the adapter, without running another simulation participant (and ideally, using the upcoming [general mocked interface](https://github.com/precice/preeco-orga/issues/4)).
 - [ ] G.6: The repository is ready to be integrated into the [preCICE system tests](https://precice.org/dev-docs-system-tests.html): A simulation can start using an unsupervised script and there is enough information to create entries under `component-templates/` and `components.yaml`.
 - [ ] G.7: There is documentation on how to extend the adapter (i.e., documentation about the software architecture).
