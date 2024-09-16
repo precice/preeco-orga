@@ -122,7 +122,7 @@ Bronze:
 
 - [x] B.1: See https://precice.org/quickstart.html
 - [x] B.2: See https://github.com/precice/openfoam-adapter/blob/develop/README.md
-- [x] B.3: All information is available other in the `README.md` or the respective documentation
+- [x] B.3: All information is available either in the `README.md` or the [respective documentation](https://precice.org/adapter-openfoam-overview.html).
 - [x] B.4: The adapter has a clear license (open is optional, but strongly encouraged).
 - [x] B.5: The adapter uses a version control system (public is optional, but strongly encouraged).
 - [x] B.6: The adapter uses a versioning scheme, such as [semantic versioning](https://semver.org/) (or other clearly defined scheme).
