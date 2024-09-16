@@ -84,8 +84,7 @@ We consider an adapter fulfilling all of these criteria as *Interoperable* and *
 - [ ] S.11: The documentation is rendered in a user-friendly way, either:
   - on precice.org (i.e., in `docs` subfolder, see [preCICE documentation of the documentation](https://precice.org/docs-meta-overview.html))
   - on another website
-- [ ] S.12: The development repository is public or at least accessible to the preCICE team.
-- [ ] S.13: The logging is configurable, with levels at least "no logging, release logging, and debug logging".
+- [ ] S.12: The logging is configurable, with levels at least "no logging, release logging, and debug logging".
 
 ### Gold
 
