@@ -77,7 +77,7 @@ We consider an adapter fulfilling all of these criteria as *Interoperable* and *
 - [ ] S.1: The adapter is accompanied by one or more application cases to test it, covering an extensive part of the claimed functionality. These cases must be provided as independent application cases.
 - [ ] S.2: The documentation provides references to related studies or literature necessary to understand the modeling and implementation (at least in preprint state).
 - [ ] S.3: The adapter has an open-source license.
-- [ ] S.4: The adapter uses a publicly-accessible version control system.
+- [ ] S.4: The adapter uses a publicly-accessible repository.
 - [ ] S.5: The adapter configuration covers the mesh name, data names, participant name, and name of the preCICE configuration file.
 - [ ] S.6: In the adapter configuration, standard names are possible for the coupled data (e.g., `Displacement`).
 - [ ] S.7: There is a clearly defined code style and a provided formatter (e.g., clang-format specification file).
