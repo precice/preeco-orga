@@ -135,10 +135,10 @@ Silver:
 - [x] S.7: https://github.com/precice/openfoam-adapter/blob/develop/.clang-format
 - [x] S.8: https://github.com/precice/openfoam-adapter/blob/develop/CHANGELOG.md
 - [x] S.9: https://github.com/precice/openfoam-adapter/issues
-- [ ] S.10: There is information on how the adapter was validated and how validation could be reproduced.
+- [ ] S.10: While the adapter has been validated, this is not clearly described in the current documentation
 - [x] S.11: on precice.org
 - [x] S.12: public
-- [ ] S.13: only at compile-time
+- [x] S.13: yes, but only at compile-time
 
 Gold:
 
