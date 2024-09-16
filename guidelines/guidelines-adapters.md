@@ -79,7 +79,7 @@ We consider an adapter fulfilling all of these criteria as *Interoperable* and *
 - [ ] S.3: The adapter has an open-source license.
 - [ ] S.4: The adapter uses a publicly-accessible repository.
 - [ ] S.5: The adapter configuration covers the mesh name, data names, participant name, and name of the preCICE configuration file.
-- [ ] S.6: In the adapter configuration, standard names are possible for the coupled data (e.g., `Displacement`).
+- [ ] S.6: In the adapter configuration, [standard names](community-contribute-to-precice.html#naming-conventions) are possible for the coupled data (e.g., `Displacement`).
 - [ ] S.7: There is a clearly defined code style and a provided formatter (e.g., clang-format specification file).
 - [ ] S.8: There is a structured changelog, e.g., using the [keep a changelog](https://keepachangelog.com/) format.
 - [ ] S.9: There is an issue tracker.
