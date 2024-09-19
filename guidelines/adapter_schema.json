@@ -38,7 +38,10 @@
             },
             "description": "List of data fields to be read on this mesh."
           }
-        }
+        },
+        "required": [
+          "mesh_name"
+        ],
       }
     }
   },
