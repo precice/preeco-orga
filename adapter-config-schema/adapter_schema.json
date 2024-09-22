@@ -41,7 +41,7 @@
         },
         "required": [
           "mesh_name"
-        ],
+        ]
       }
     }
   },
