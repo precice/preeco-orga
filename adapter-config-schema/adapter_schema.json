@@ -3,11 +3,13 @@
   "type": "object",
   "properties": {
     "participant_name": {
+      "title": "Participant Name",
       "type": "string",
       "description": "Name of the participant.",
       "default": "Fluid"
     },
     "config_file_name": {
+      "title": "Configuration File Name",
       "type": "string",
       "description": "Path to the configuration file.",
       "default": "../precice-config.xml"
@@ -15,9 +17,11 @@
     "interfaces": {
       "type": "array",
       "items": {
+        "title": "Interface",
         "type": "object",
         "properties": {
           "mesh_name": {
+            "title": "Mesh Name",
             "type": "string",
             "description": "Name of the mesh associated with this interface.",
             "default": "Fluid-Mesh"
@@ -25,6 +29,7 @@
           "write_data_names": {
             "type": "array",
             "items": {
+              "title": "Write Data Field",
               "type": "string",
               "default": "Force"
             },
@@ -33,6 +38,7 @@
           "read_data_names": {
             "type": "array",
             "items": {
+              "title": "Read Data Field",
               "type": "string",
               "default": "Displacement"
             },
