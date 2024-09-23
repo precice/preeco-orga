@@ -6,7 +6,7 @@ summary: Quality guidelines and standards for application cases
 toc: true
 ---
 
-v0.1, published on September TODO, 2024
+v0.1, published on September 23, 2024
 
 Are you preparing one or several application cases for a data publication to accompany your journal article? Follow these guidelines to make your cases easier to integrate with the rest of the preCICE ecosystem and, thus, easier to reproduce, to maintain, and to build upon.
 
@@ -25,7 +25,7 @@ For the guidelines, we distinguish between **metadata** and **best practices**, 
 By submitting your data publication for review, you can expect a thorough check from the preCICE team on whether the application case guidelines are met and how to improve your cases. We are not doing a scientific review, however. If your data publication is part of a journal article, for example, the scientific review is part of the review process of the journal instead. Let us know about your cases early on, then we can help from the beginning. If you submit too late, it might be that you can no longer edit your data publication or that it would simply be too much hassle to still change fundamental things.
 
 {% tip %}
-We are only in the beginning of this standardization journey. Do you have ideas that would make your life easier and or do want to change the guidelines? Comment in [this issue](https://github.com/precice/preeco-orga/issues/6), or click "Edit" to suggest a change in this page.
+We are only in the beginning of this standardization journey. Do you have ideas that would make your life easier and or do want to change the guidelines? Comment in [this forum thread](https://precice.discourse.group/t/2126), or click "Edit" to suggest a change in this page.
 {% endtip %}
 
 {% tip %}
