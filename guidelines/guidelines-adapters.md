@@ -16,7 +16,7 @@ We also differentiate here between adapters and application cases: for example, 
 By submitting your adapter for review, you can expect a thorough check from the preCICE team on whether these guidelines are met. We cannot do a full code review or a scientific review, and listing your adapter here does not in any way replace a traditional publication, which you can link to.
 
 {% tip %}
-We are only in the beginning of this standardization journey. Do you have ideas that would make your life easier and integrating your adapter smoother? Comment in [this issue](https://github.com/precice/preeco-orga/issues/7), or click "Edit" to suggest a change in this page.
+We are only in the beginning of this standardization journey. Do you have ideas that would make your life easier and integrating your adapter smoother? Comment in [this forum thread](https://precice.discourse.group/t/2125), or click "Edit" to suggest a change in this page.
 {% endtip  %}
 
 {% tip %}
