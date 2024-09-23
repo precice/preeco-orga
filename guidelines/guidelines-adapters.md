@@ -41,8 +41,7 @@ We distinguish between three levels: bronze, silver, and gold.
 We consider an adapter fulfilling all of these criteria as *Findable* and *Accessible*. This means that the adapter is working and documented. Others can find, build, and run the code, and they are able to understand what is does.
 
 - [ ] B.1: The adapter is accompanied by at least one application case to test it, covering at least a defined minimum functionality. The test case can be provided as an independent application case or included in the adapter.
-- [ ] B.2: There is a `README.md` file.
-- [ ] B.3: At least the following information is contained in the `README.md` file, or in a similar place:
+- [ ] B.2: There is a `README.md` file with at least the following information (or links to related resources):
   - [ ] application background and/or nature of coupling (e.g., surface vs. volume coupling; transient or steady-state; ...)
   - [ ] what data can be read and written for a coupling
   - [ ] which target solver versions are supported
@@ -60,10 +59,10 @@ We consider an adapter fulfilling all of these criteria as *Findable* and *Acces
   - [ ] restrictions on solver features
     - e.g., cannot be run in parallel or cannot use adaptive time stepping or cannot use higher-order elements
   - [ ] how to cite
-- [ ] B.4: The adapter has a clear license (open is optional, but strongly encouraged).
-- [ ] B.5: The adapter uses a version control system (public is optional, but strongly encouraged).
-- [ ] B.6: The adapter uses a versioning scheme, such as [semantic versioning](https://semver.org/) (or other clearly defined scheme).
-- [ ] B.7: The adapter has comments and error messages for at least its main building blocks and entry points. These comments are in English.
+- [ ] B.3: The adapter has a clear license (open is optional, but strongly encouraged).
+- [ ] B.4: The adapter uses a version control system (public is optional, but strongly encouraged).
+- [ ] B.5: The adapter uses a versioning scheme, such as [semantic versioning](https://semver.org/) (or other clearly defined scheme).
+- [ ] B.6: The adapter has comments and error messages for at least its main building blocks and entry points. These comments are in English.
 
 ### Silver
 
