@@ -96,7 +96,7 @@ We consider an adapter fulfilling all of these criteria as *Reusable*, *communit
 - [ ] G.7: There is documentation on how to extend the adapter (i.e., documentation about the software architecture).
 - [ ] G.8: The adapter is packaged either on the expected repositories of the respective solver community, or on [Spack](https://spack.io/) ([Spack packages](https://packages.spack.io/)).
 
-## An example
+## An adapter example
 
 The OpenFOAM adapter currently reaches Bronze level conformity, even if it already satisfies many of the higher-level criteria.
 
