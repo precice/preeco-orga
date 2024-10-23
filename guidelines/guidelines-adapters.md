@@ -10,7 +10,7 @@ v0.1, published on September 23, 2024
 
 Are you developing a preCICE adapter or related tool? Follow these guidelines to make your adapter easier to publish, easier to integrate it with the rest of the preCICE ecosystem, and more useful for the community.
 
-We distinguish between **metadata** and **best practices**, with three levels: bronze, silver, and gold. We plan to publish a list of all adapters that has achieved at least bronze level, together with the respective metadata. Higher levels bring higher visibility and further benefits.
+We distinguish between **metadata** and **best practices**, with three levels: bronze, silver, and gold. We plan to publish a list of all adapters that have achieved at least bronze level, together with the respective metadata. Higher levels bring higher visibility and further benefits.
 
 We also differentiate here between adapters and application cases: for example, we consider the ["Nutils adapter"](https://precice.org/adapter-nutils.html) to be a collection of application cases instead of an adapter. An [adapter](https://precice.org/couple-your-code-overview.html) can be a stand-alone software project, but can also be a class, a patch, or something else with significant scholarly effort compared to the uncoupled solver. Other tools that interact with the preCICE API or configuration files can also be considered here, on a case-by-case basis.
 
@@ -106,7 +106,7 @@ Metadata:
 - M.1: OpenFOAM
 - M.2: https://precice.org/adapter-openfoam-overview.html
 - M.3: GPL-3.0
-- M.4: Gerasimos Chourdakis <gerasimos.chourdakis@ipvs.uni-stuttgart.de>, David Schneider <david.schneider@ipvs.uni-stuttgart.de>
+- M.4: Gerasimos Chourdakis `<gerasimos.chourdakis ipvs.uni-stuttgart.de>`, David Schneider `<david.schneider ipvs.uni-stuttgart.de>`
 - M.5: https://doi.org/10.51560/ofj.v3.88
 - M.6: library
 
