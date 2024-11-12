@@ -3,52 +3,105 @@
   "type": "object",
   "properties": {
     "participant_name": {
-      "title": "Participant Name",
       "type": "string",
       "description": "Name of the participant.",
-      "default": "Fluid"
+      "examples": [
+        "Fluid",
+        "Solid",
+        "Fluid-Left",
+        "Fluid"
+      ],
+      "minLength": 1,
+      "pattern": "^[A-Z][a-zA-Z0-9-]*$"
     },
     "config_file_name": {
-      "title": "Configuration File Name",
       "type": "string",
-      "description": "Path to the configuration file.",
-      "default": "../precice-config.xml"
+      "description": "Path to the preCICE configuration file.",
+      "default": "../precice-config.xml",
+      "minLength": 1,
+      "pattern": "^/?(?:\\.\\./)*([a-zA-Z0-9]+(-[a-zA-Z0-9]+)*/)*[a-zA-Z0-9]+(-[a-zA-Z0-9]+)*\\.xml$"
     },
     "interfaces": {
       "type": "array",
       "items": {
-        "title": "Interface",
         "type": "object",
         "properties": {
           "mesh_name": {
-            "title": "Mesh Name",
             "type": "string",
             "description": "Name of the mesh associated with this interface.",
-            "default": "Fluid-Mesh"
+            "examples": [
+              "Fluid-Mesh",
+              "Solid-Mesh",
+              "Fluid-Upstream-Mesh",
+              "Fluid-Upstream-Mesh-Centers",
+              "Fluid-Upstream-Mesh-Nodes"
+            ],
+            "minLength": 6,
+            "pattern": "^[A-Z][a-zA-Z0-9]*(?:-[A-Z][a-zA-Z0-9]*)*-Mesh(?:-[A-Z][a-zA-Z0-9]*)*$"
+          },
+          "patches": {
+            "type": "array",
+            "description": "List of mesh or geometry patches (boundary or volume) to locate the interface.",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          },
+          "location" : {
+            "type": "string",
+            "description": "Further specification of mesh locations",
+            "minLength": 1,
+            "examples": [
+              "faceCenters",
+              "volumeCenters",
+              "faceNodes"
+            ]
           },
           "write_data_names": {
             "type": "array",
+            "description": "List of data fields to be written on this mesh.",
             "items": {
-              "title": "Write Data Field",
               "type": "string",
-              "default": "Force"
+              "examples": [
+                "Force",
+                "Displacement",
+                "Velocity",
+                "Temperature",
+                "Heat-Flux",
+                "Force1",
+                "Force-Left"
+              ],
+              "minLength": 1,
+              "pattern": "^[A-Z][a-zA-Z0-9]*(?:-[A-Za-z0-9]+)*$"
             },
-            "description": "List of data fields to be written on this mesh."
+            "minItems": 1
           },
           "read_data_names": {
             "type": "array",
+            "description": "List of data fields to be read on this mesh.",
             "items": {
-              "title": "Read Data Field",
               "type": "string",
-              "default": "Displacement"
+              "examples": [
+                "Force",
+                "Displacement",
+                "Velocity",
+                "Temperature",
+                "Heat-Flux",
+                "Force1",
+                "Force-Left"
+              ],
+              "minLength": 1,
+              "pattern": "^[A-Z][a-zA-Z0-9]*(?:-[A-Za-z0-9]+)*$"
             },
-            "description": "List of data fields to be read on this mesh."
+            "minItems": 1
           }
         },
         "required": [
           "mesh_name"
         ]
-      }
+      },
+      "minItems": 1
     }
   },
   "required": [
