@@ -122,7 +122,6 @@ Required best practices:
 
 Additional criteria:
 
-
 - [x] A.1: GPL-3.0
 - [x] A.2: https://github.com/precice/openfoam-adapter
 - [x] A.3: https://github.com/precice/openfoam-adapter/blob/develop/.clang-format
