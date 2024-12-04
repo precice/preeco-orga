@@ -21,7 +21,7 @@ We are only in the beginning of this standardization journey. Do you have ideas 
 {% endtip  %}
 
 {% tip %}
-Applying for research funding? Mention in your proposal which level you are planning to achieve during your planned project and how.
+Applying for research funding? Mention in your proposal that you are planning to follow best practices defined by the preCICE community.
 {% endtip  %}
 
 ## Metadata
