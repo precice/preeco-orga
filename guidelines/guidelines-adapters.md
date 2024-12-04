@@ -97,7 +97,7 @@ Aim to implement as many of these best practices make sense for you. Each brings
 
 ## An adapter example
 
-The OpenFOAM adapter currently reaches Bronze level conformity, even if it already satisfies many of the higher-level criteria.
+The OpenFOAM adapter conforms to the preCICE best practices and fulfills many of the additional criteria.
 
 Metadata:
 
@@ -108,39 +108,33 @@ Metadata:
 - M.5: https://doi.org/10.51560/ofj.v3.88
 - M.6: library
 
-Bronze:
+Required best practices:
 
-- [x] B.1: https://precice.org/quickstart.html
-- [x] B.2: https://github.com/precice/openfoam-adapter/blob/develop/README.md
-- [x] B.3: https://precice.org/adapter-openfoam-overview.html
-- [x] B.4: https://github.com/precice/openfoam-adapter/blob/develop/LICENSE
-- [x] B.5: https://github.com/precice/openfoam-adapter (public)
-- [x] B.6: https://precice.org/adapter-openfoam-get.html#what-does-the-adapter-version-mean
-- [x] B.7: See, for example, https://github.com/precice/openfoam-adapter/blob/develop/Adapter.H
+- [x] R.1: Several application cases are available as tutorials. The application cases list is not yet available.
+- [x] R.2: https://github.com/precice/openfoam-adapter/blob/develop/README.md
+- [x] R.3: https://github.com/precice/openfoam-adapter/blob/develop/LICENSE
+- [x] R.4: https://github.com/precice/openfoam-adapter (public)
+- [x] R.5: https://precice.org/adapter-openfoam-get.html#what-does-the-adapter-version-mean
+- [x] R.6: https://github.com/precice/openfoam-adapter/blob/develop/CHANGELOG.md
+- [x] R.7: See, for example, https://github.com/precice/openfoam-adapter/blob/develop/Adapter.H
+- [x] R.8: https://precice.org/adapter-openfoam-config.html
+- [x] R.9: https://precice.org/adapter-openfoam-config.html
 
-Silver:
+Additional criteria:
 
-- [x] S.1: Several application cases are available as tutorials. The application cases list is not yet available.
-- [x] S.2: https://doi.org/10.51560/ofj.v3.88
-- [x] S.3: GPL-3.0
-- [x] S.4: https://github.com/precice/openfoam-adapter
-- [x] S.5: https://precice.org/adapter-openfoam-config.html
-- [x] S.6: https://precice.org/adapter-openfoam-config.html
-- [x] S.7: https://github.com/precice/openfoam-adapter/blob/develop/.clang-format
-- [x] S.8: https://github.com/precice/openfoam-adapter/blob/develop/CHANGELOG.md
-- [x] S.9: https://github.com/precice/openfoam-adapter/issues
-- [ ] S.10: While the adapter has been validated, this is not clearly described in the current documentation
-- [x] S.11: on precice.org
-- [x] S.12: public
-- [x] S.13: yes, but only at compile-time
 
-Gold:
-
-- [x] G.1: https://doi.org/10.51560/ofj.v3.88
-- [x] G.2: https://github.com/precice/openfoam-adapter/blob/develop/CONTRIBUTING.md
-- [x] G.3: https://github.com/precice/openfoam-adapter/blob/develop/.github/pull_request_template.md
-- [ ] G.4: (schema not available yet)
-- [ ] G.5: There are no unit tests
-- [x] G.6: Already integrated into the system tests
-- [x] G.7: https://precice.org/adapter-openfoam-extend.html
-- [x] G.8: https://packages.spack.io/package.html?name=of-precice
+- [x] A.1: GPL-3.0
+- [x] A.2: https://github.com/precice/openfoam-adapter
+- [x] A.3: https://github.com/precice/openfoam-adapter/blob/develop/.clang-format
+- [x] A.4: https://github.com/precice/openfoam-adapter/issues
+- [ ] A.5: While the adapter has been validated, this is not clearly described in the current documentation
+- [x] A.6: on precice.org
+- [x] A.7: yes, but only at compile-time
+- [x] A.8: https://doi.org/10.51560/ofj.v3.88
+- [x] A.9: https://github.com/precice/openfoam-adapter/blob/develop/CONTRIBUTING.md
+- [x] A.10: https://github.com/precice/openfoam-adapter/blob/develop/.github/pull_request_template.md
+- [ ] A.11: (schema not available yet)
+- [ ] A.12: There are no unit tests
+- [x] A.13: Already integrated into the system tests
+- [x] A.14: https://precice.org/adapter-openfoam-extend.html
+- [x] A.15: https://packages.spack.io/package.html?name=of-precice
