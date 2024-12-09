@@ -89,7 +89,7 @@ If an application case includes several experiments, they can be structured in i
 We consider an application case fulfilling all of these criteria as conforming to the preCICE standards. This means that the case is running and documented and that it follows a standardized structure and style. Others can easily understand what the case does and could, potentially, run it with other solvers without modifications (e.g. of the preCICE configuration). The case feels part of the preCICE ecosystem.
 
 - [ ] R.1: All coupled solvers are accessible (open or commercial)
-- [ ] R.2: The structure of the case should be as follows:
+- [ ] R.2: The case follows the following structure:
 
     ```bash
     - <some-application-case>/        # or <some_experiment>
