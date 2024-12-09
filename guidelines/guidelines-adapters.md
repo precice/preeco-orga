@@ -63,7 +63,6 @@ We consider an adapter fulfilling all of these criteria as conforming to the pre
     - multiple meshes
   - [ ] restrictions on solver features
     - e.g., cannot be run in parallel or cannot use adaptive time stepping or cannot use higher-order elements
-  - [ ] how to cite
   - [ ] references to related studies or literature necessary to understand the modeling and implementation (at least in preprint state).
 - [ ] R.3: The adapter has a clear license (open is optional, but strongly encouraged).
 - [ ] R.4: The adapter uses a version control system (public is optional, but strongly encouraged).
