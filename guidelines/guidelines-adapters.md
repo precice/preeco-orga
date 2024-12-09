@@ -78,7 +78,7 @@ We consider an adapter fulfilling all of these criteria as conforming to the pre
 
 These optional criteria help others to easily reuse and extend the adapter for their own needs. Maintaining the adapter could be shared among many. The preCICE maintainers can integrate the adapter and corresponding application cases into their development workflows. All tooling works seamlessly.
 
-Aim to implement as many of these best practices make sense for you. Each brings additional long-term benefits.
+Aim to implement as many of these best practices as make sense for you. Each brings additional long-term benefits.
 
 - [ ] A.1: The adapter has an open-source license.
 - [ ] A.2: The adapter uses a publicly-accessible repository.
