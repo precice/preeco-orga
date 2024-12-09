@@ -75,7 +75,7 @@ We consider an adapter fulfilling all of these criteria as conforming to the pre
 
 ### Additional
 
-These optional criteria help others easily reuse and extend the adapter for their own needs. Maintaining the adapter could be shared among many. We can integrate the adapter and corresponding application cases into our development workflows and make sure that we will not break it. All tooling works seamlessly.
+These optional criteria help others to easily reuse and extend the adapter for their own needs. Maintaining the adapter could be shared among many. The preCICE maintainers can integrate the adapter and corresponding application cases into their development workflows. All tooling works seamlessly.
 
 Aim to implement as many of these best practices make sense for you. Each brings additional long-term benefits.
 
