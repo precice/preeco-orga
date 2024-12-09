@@ -89,10 +89,10 @@ Aim to implement as many of these best practices make sense for you. Each brings
 - [ ] A.5: There is a peer-reviewed paper (at least in pre-print state) with a validation study, with all data available.
 - [ ] A.6: There are contribution guidelines described in or linked from a `CONTRIBUTING.md` file.
 - [ ] A.7: There is a pull request template.
-- [ ] A.8: There are unit tests to test components of the adapter, without running another simulation participant (and ideally, using the upcoming [general mocked interface](https://github.com/precice/preeco-orga/issues/4)).
-- [ ] A.9: The repository is ready to be integrated into the [preCICE system tests](https://precice.org/dev-docs-system-tests.html): A simulation can start using an unsupervised script and there is enough information to create entries under `component-templates/` and `components.yaml`.
-- [ ] A.10: There is documentation on how to extend the adapter (i.e., documentation about the software architecture).
-- [ ] A.12: The adapter is packaged either on the expected repositories of the respective solver community, or on [Spack](https://spack.io/) ([Spack packages](https://packages.spack.io/)).
+- [ ] A.8: There is documentation on how to extend the adapter (i.e., documentation about the software architecture).
+- [ ] A.9: There are unit tests to test components of the adapter, without running another simulation participant (and ideally, using the upcoming [general mocked interface](https://github.com/precice/preeco-orga/issues/4)).
+- [ ] A.10: The repository is ready to be integrated into the [preCICE system tests](https://precice.org/dev-docs-system-tests.html): A simulation can start using an unsupervised script and there is enough information to create entries under `component-templates/` and `components.yaml`.
+- [ ] A.11: The adapter is packaged either on the expected repositories of the respective solver community, or on [Spack](https://spack.io/) ([Spack packages](https://packages.spack.io/)).
 
 ## An adapter example
 
@@ -130,7 +130,7 @@ Additional criteria:
 - [x] A.5: https://doi.org/10.51560/ofj.v3.88
 - [x] A.6: https://github.com/precice/openfoam-adapter/blob/develop/CONTRIBUTING.md
 - [x] A.7: https://github.com/precice/openfoam-adapter/blob/develop/.github/pull_request_template.md
-- [ ] A.8: There are no unit tests
-- [x] A.9: Already integrated into the system tests
-- [x] A.10: https://precice.org/adapter-openfoam-extend.html
+- [x] A.8: https://precice.org/adapter-openfoam-extend.html
+- [ ] A.9: There are no unit tests
+- [x] A.10: Already integrated into the system tests
 - [x] A.11: https://packages.spack.io/package.html?name=of-precice
