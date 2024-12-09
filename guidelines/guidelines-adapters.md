@@ -69,9 +69,10 @@ We consider an adapter fulfilling all of these criteria as conforming to the pre
 - [ ] R.4: The adapter uses a version control system (public is optional, but strongly encouraged).
 - [ ] R.5: The adapter uses a versioning scheme, such as [semantic versioning](https://semver.org/) (or other clearly defined scheme).
 - [ ] R.6: There is a structured changelog, e.g., using the [keep a changelog](https://keepachangelog.com/) format.
-- [ ] R.7: The adapter has comments and error messages for at least its main building blocks and entry points. These comments are in English.
-- [ ] R.8: The adapter configuration covers the mesh name, data names, participant name, and name of the preCICE configuration file.
-- [ ] R.9: In the adapter configuration, [standard names](community-contribute-to-precice.html#naming-conventions) are possible for the coupled data (e.g., `Displacement`).
+- [ ] R.7: There is an issue tracker.
+- [ ] R.8: There is a code formatting specification (e.g., clang-format specification file).
+- [ ] R.9: The adapter has comments and error messages for at least its main building blocks and entry points. These comments are in English.
+- [ ] R.10: The configuration follows a formally defined schema, which [will be available in the future](https://github.com/precice/preeco-orga/issues/18).
 
 ### Additional
 
@@ -81,21 +82,18 @@ Aim to implement as many of these best practices make sense for you. Each brings
 
 - [ ] A.1: The adapter has an open-source license.
 - [ ] A.2: The adapter uses a publicly-accessible repository.
-- [ ] A.3: There is a code formatting specification (e.g., clang-format specification file).
-- [ ] A.4: There is an issue tracker.
-- [ ] A.5: There is information on how the adapter was validated and how validation could be reproduced.
-- [ ] A.6: The documentation is rendered in a user-friendly way, either:
+- [ ] A.3: There is information on how the adapter was validated and how validation could be reproduced.
+- [ ] A.4: The documentation is rendered in a user-friendly way, either:
   - on precice.org (i.e., in `docs` subfolder, see [preCICE documentation of the documentation](https://precice.org/docs-meta-overview.html))
   - on another website
-- [ ] A.7: The logging is configurable, with levels at least "no logging, release logging, and debug logging".
-- [ ] A.8: There is a peer-reviewed paper (at least in pre-print state) with a validation study, with all data available.
-- [ ] A.9: There are contribution guidelines described in or linked from a `CONTRIBUTING.md` file.
-- [ ] A.10: There is a pull request template.
-- [ ] A.11: The configuration follows a formally defined schema, which [will be available in the future](https://github.com/precice/preeco-orga/issues/18).
-- [ ] A.12: There are unit tests to test components of the adapter, without running another simulation participant (and ideally, using the upcoming [general mocked interface](https://github.com/precice/preeco-orga/issues/4)).
-- [ ] A.13: The repository is ready to be integrated into the [preCICE system tests](https://precice.org/dev-docs-system-tests.html): A simulation can start using an unsupervised script and there is enough information to create entries under `component-templates/` and `components.yaml`.
-- [ ] A.14: There is documentation on how to extend the adapter (i.e., documentation about the software architecture).
-- [ ] A.15: The adapter is packaged either on the expected repositories of the respective solver community, or on [Spack](https://spack.io/) ([Spack packages](https://packages.spack.io/)).
+- [ ] A.5: The logging is configurable, with levels at least "no logging, release logging, and debug logging".
+- [ ] A.6: There is a peer-reviewed paper (at least in pre-print state) with a validation study, with all data available.
+- [ ] A.7: There are contribution guidelines described in or linked from a `CONTRIBUTING.md` file.
+- [ ] A.8: There is a pull request template.
+- [ ] A.9: There are unit tests to test components of the adapter, without running another simulation participant (and ideally, using the upcoming [general mocked interface](https://github.com/precice/preeco-orga/issues/4)).
+- [ ] A.10: The repository is ready to be integrated into the [preCICE system tests](https://precice.org/dev-docs-system-tests.html): A simulation can start using an unsupervised script and there is enough information to create entries under `component-templates/` and `components.yaml`.
+- [ ] A.11: There is documentation on how to extend the adapter (i.e., documentation about the software architecture).
+- [ ] A.12: The adapter is packaged either on the expected repositories of the respective solver community, or on [Spack](https://spack.io/) ([Spack packages](https://packages.spack.io/)).
 
 ## An adapter example
 
@@ -118,24 +116,22 @@ Required best practices:
 - [x] R.4: https://github.com/precice/openfoam-adapter (public)
 - [x] R.5: https://precice.org/adapter-openfoam-get.html#what-does-the-adapter-version-mean
 - [x] R.6: https://github.com/precice/openfoam-adapter/blob/develop/CHANGELOG.md
-- [x] R.7: See, for example, https://github.com/precice/openfoam-adapter/blob/develop/Adapter.H
-- [x] R.8: https://precice.org/adapter-openfoam-config.html
-- [x] R.9: https://precice.org/adapter-openfoam-config.html
+- [x] R.7: https://github.com/precice/openfoam-adapter/issues
+- [x] R.8: https://github.com/precice/openfoam-adapter/blob/develop/.clang-format
+- [x] R.9: See, for example, https://github.com/precice/openfoam-adapter/blob/develop/Adapter.H
+- [ ] R.10: (schema not available yet)
 
 Additional criteria:
 
 - [x] A.1: GPL-3.0
 - [x] A.2: https://github.com/precice/openfoam-adapter
-- [x] A.3: https://github.com/precice/openfoam-adapter/blob/develop/.clang-format
-- [x] A.4: https://github.com/precice/openfoam-adapter/issues
-- [ ] A.5: While the adapter has been validated, this is not clearly described in the current documentation
-- [x] A.6: on precice.org
-- [x] A.7: yes, but only at compile-time
-- [x] A.8: https://doi.org/10.51560/ofj.v3.88
-- [x] A.9: https://github.com/precice/openfoam-adapter/blob/develop/CONTRIBUTING.md
-- [x] A.10: https://github.com/precice/openfoam-adapter/blob/develop/.github/pull_request_template.md
-- [ ] A.11: (schema not available yet)
-- [ ] A.12: There are no unit tests
-- [x] A.13: Already integrated into the system tests
-- [x] A.14: https://precice.org/adapter-openfoam-extend.html
-- [x] A.15: https://packages.spack.io/package.html?name=of-precice
+- [ ] A.3: While the adapter has been validated, this is not clearly described in the current documentation
+- [x] A.4: on precice.org
+- [x] A.5: yes, but only at compile-time
+- [x] A.6: https://doi.org/10.51560/ofj.v3.88
+- [x] A.7: https://github.com/precice/openfoam-adapter/blob/develop/CONTRIBUTING.md
+- [x] A.8: https://github.com/precice/openfoam-adapter/blob/develop/.github/pull_request_template.md
+- [ ] A.9: There are no unit tests
+- [x] A.10: Already integrated into the system tests
+- [x] A.11: https://precice.org/adapter-openfoam-extend.html
+- [x] A.12: https://packages.spack.io/package.html?name=of-precice
