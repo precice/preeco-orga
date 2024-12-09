@@ -45,7 +45,7 @@ The criteria follow at large the [FAIR criteria for research software](https://d
 
 We consider an adapter fulfilling all of these criteria as conforming to the preCICE standards. This means that the adapter is working, documented, plays well with other adapters from the community, and feels part of the preCICE ecosystem. Others can find, build, and run the code, and they are able to understand what is does. The preCICE maintainers are, if necessary, able to maintain the adapter (e.g. update it to newer preCICE versions).
 
-- [ ] R.1: The adapter is accompanied by one or more application cases to test it, covering an extensive part of the claimed functionality.
+- [ ] R.1: The adapter is accompanied by one or more application cases to test it, covering an extensive part of the claimed functionality. These test cases must fulfill the required criteria of the [application case guidelines](community-guidelines-application-cases.html).
 - [ ] R.2: There is a `README.md` file with at least the following information (or links to related resources):
   - [ ] application background and/or nature of coupling (e.g., surface vs. volume coupling; transient or steady-state; ...)
   - [ ] what data can be read and written for a coupling
