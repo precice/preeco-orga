@@ -136,7 +136,7 @@ We consider an application case fulfilling all of these criteria as conforming t
     - Mesh names of participants with multiple interfaces contain the interface in the mesh name, e.g. `Fluid-Upstream-Mesh`. For meshes on which it is important to distinguish between face centers and face nodes (or similar), the modifier comes at the end, e.g. `Fluid-Upstream-Mesh-Centers`.
   - Watchpoint names should be describing the point, not be a generic name.
 - [ ] R.8: There is a cleaning script `clean.sh` to clean the complete case.
-- [ ] R.9: There is an individual run script `run.sh` for each solver. If this script takes additional options, there are default values.
+- [ ] R.9: There is an individual run script `run.sh` for each solver. If a script takes additional options, there are default values. The scripts should be called from the individual folders.
 
 ### Additional
 
