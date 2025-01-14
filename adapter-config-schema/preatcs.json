@@ -1,6 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
+  "title": "preCICE Adapter and Tooling Configuration Schema (preATCS)",
+  "description": "A JSON schema for configurations of adapters and tools within the preCICE ecosystem. Use the schema for validation and LLM-based auto-conversion to other configuration languages (e.g., OpenFOAM dictionary or YAML). The schema is developed as part of the preECO standardization, see https://precice.discourse.group/t/shape-the-future-of-the-precice-ecosystem-the-preeco-project/2019.",
   "properties": {
     "participant_name": {
       "type": "string",
@@ -48,14 +50,15 @@
             },
             "minItems": 1
           },
-          "location" : {
+          "location": {
             "type": "string",
             "description": "Further specification of mesh locations",
             "minLength": 1,
             "examples": [
               "faceCenters",
               "volumeCenters",
-              "faceNodes"
+              "faceNodes",
+              "nodes"
             ]
           },
           "write_data_names": {
@@ -70,7 +73,9 @@
                 "Temperature",
                 "Heat-Flux",
                 "Force1",
-                "Force-Left"
+                "Force-Left",
+                "Heat-Transfer-Coefficient",
+                "Sink-Temperature"
               ],
               "minLength": 1,
               "pattern": "^[A-Z][a-zA-Z0-9]*(?:-[A-Za-z0-9]+)*$"
@@ -95,10 +100,32 @@
               "pattern": "^[A-Z][a-zA-Z0-9]*(?:-[A-Za-z0-9]+)*$"
             },
             "minItems": 1
+          },
+          "is_received": {
+            "type": "boolean",
+            "description": "Whether mesh is received from another participant for (direct) API access or not (i.e. provided)."
           }
         },
         "required": [
           "mesh_name"
+        ],
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "is_received": {
+                  "const": true
+                }
+              }
+            },
+            "then": {
+              "not": {
+                "required": [
+                  "location"
+                ]
+              }
+            }
+          }
         ]
       },
       "minItems": 1
@@ -108,6 +135,5 @@
     "participant_name",
     "config_file_name",
     "interfaces"
-  ],
-  "title": "preCICE Adapter Schema"
+  ]
 }

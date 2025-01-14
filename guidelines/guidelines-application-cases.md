@@ -94,16 +94,18 @@ We consider an application case fulfilling all of these criteria as conforming t
     ```bash
     - <some-application-case>/        # or <some_experiment>
       - README.md                     # see R.3
-      - precice.config.xml            # preCICE configuration file, see R.4-R.7
+      - precice-config.xml            # preCICE configuration file, see R.4-R.7
       - run-all.sh                    # run the complete case, multiple times if necessary (optional)
       - clean.sh                      # clean the complete case (mandatory, see R.8)
       - <solver1>/
         - run.sh                      # run the solver (mandatory, see R.9)
         - clean.sh                    # individual clean script (optional)
+        - precice-adapter-config.json # adapter configuration (if necessary)
         - <the-solver1-files>
       - <solver2>/
         - run.sh
         - clean.sh
+        - precice-adapter-config.json
         - <the-solver2-files>
       - ...
       - <some-other-files>
