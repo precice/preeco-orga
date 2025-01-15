@@ -16,7 +16,7 @@
       "minLength": 1,
       "pattern": "^[A-Z][a-zA-Z0-9-]*$"
     },
-    "config_file_name": {
+    "precice_config_file_name": {
       "type": "string",
       "description": "Path to the preCICE configuration file.",
       "default": "../precice-config.xml",

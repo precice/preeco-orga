@@ -118,7 +118,7 @@ Required best practices:
 - [x] R.7: https://github.com/precice/openfoam-adapter/issues
 - [x] R.8: https://github.com/precice/openfoam-adapter/blob/develop/.clang-format
 - [x] R.9: See, for example, https://github.com/precice/openfoam-adapter/blob/develop/Adapter.H
-- [ ] R.10: Still requires porting of single fields, e.g. `preciceConfig` → `configFileName`.
+- [ ] R.10: Still requires porting of single fields, e.g. `preciceConfig` → `preciceConfigFileName`.
 - [ ] R.11: See call to `setMeshVertices` in https://github.com/precice/openfoam-adapter/blob/develop/Interface.C
 
 Additional criteria:
