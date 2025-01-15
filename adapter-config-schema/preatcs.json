@@ -10,8 +10,7 @@
       "examples": [
         "Fluid",
         "Solid",
-        "Fluid-Left",
-        "Fluid"
+        "Fluid-Left"
       ],
       "minLength": 1,
       "pattern": "^[A-Z][a-zA-Z0-9-]*$"
