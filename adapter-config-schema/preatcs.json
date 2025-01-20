@@ -108,24 +108,20 @@
         "required": [
           "mesh_name"
         ],
-        "allOf": [
-          {
-            "if": {
-              "properties": {
-                "is_received": {
-                  "const": true
-                }
-              }
-            },
-            "then": {
-              "not": {
-                "required": [
-                  "location"
-                ]
-              }
+        "if": {
+          "properties": {
+            "is_received": {
+              "const": true
             }
           }
-        ]
+        },
+        "then": {
+          "not": {
+            "required": [
+              "location"
+            ]
+          }
+        }
       },
       "minItems": 1
     }
