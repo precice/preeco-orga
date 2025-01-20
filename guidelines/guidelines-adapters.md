@@ -71,7 +71,7 @@ We consider an adapter fulfilling all of these criteria as conforming to the pre
 - [ ] R.7: There is an issue tracker.
 - [ ] R.8: There is a code formatting specification (e.g., clang-format specification file).
 - [ ] R.9: The adapter has comments and error messages for at least its main building blocks and entry points. These comments are in English.
-- [ ] R.10: The configuration follows a formally defined schema, which [will be available in the future](https://github.com/precice/preeco-orga/issues/18).
+- [ ] R.10: The configuration follows the [preCICE Adapter and Tooling Configuration Schema](https://github.com/precice/preeco-orga/blob/main/adapter-config-schema/preatcs.json), either directly in JSON or indirectly via LLM-based auto-conversion. Using the standard name `precice-adapter-config.json` is possible (if JSON). Validating a JSON configuration against a schema can be done with the Python library [jsonschema](https://pypi.org/project/jsonschema/) or via the [JTutor GUI](https://validationproofs.oa.r.appspot.com/), for example.
 - [ ] R.11: Any vertices defined through `setMeshVertex` or `setMeshVertices` need to be real locations in space and the data written to the mesh needs to be data located there, i.e., it is not allowed to decode any other information.
 
 ### Additional
@@ -118,7 +118,7 @@ Required best practices:
 - [x] R.7: https://github.com/precice/openfoam-adapter/issues
 - [x] R.8: https://github.com/precice/openfoam-adapter/blob/develop/.clang-format
 - [x] R.9: See, for example, https://github.com/precice/openfoam-adapter/blob/develop/Adapter.H
-- [ ] R.10: (schema not available yet)
+- [ ] R.10: Still requires porting of single fields, e.g. `preciceConfig` → `preciceConfigFileName`.
 - [ ] R.11: See call to `setMeshVertices` in https://github.com/precice/openfoam-adapter/blob/develop/Interface.C
 
 Additional criteria:

@@ -94,16 +94,18 @@ We consider an application case fulfilling all of these criteria as conforming t
     ```bash
     - <some-application-case>/        # or <some_experiment>
       - README.md                     # see R.3
-      - precice.config.xml            # preCICE configuration file, see R.4-R.7
+      - precice-config.xml            # preCICE configuration file, see R.4-R.7
       - run-all.sh                    # run the complete case, multiple times if necessary (optional)
       - clean.sh                      # clean the complete case (mandatory, see R.8)
       - <solver1>/
         - run.sh                      # run the solver (mandatory, see R.9)
         - clean.sh                    # individual clean script (optional)
+        - precice-adapter-config.json # adapter configuration (if necessary)
         - <the-solver1-files>
       - <solver2>/
         - run.sh
         - clean.sh
+        - precice-adapter-config.json
         - <the-solver2-files>
       - ...
       - <some-other-files>
@@ -134,7 +136,7 @@ We consider an application case fulfilling all of these criteria as conforming t
     - Mesh names of participants with multiple interfaces contain the interface in the mesh name, e.g. `Fluid-Upstream-Mesh`. For meshes on which it is important to distinguish between face centers and face nodes (or similar), the modifier comes at the end, e.g. `Fluid-Upstream-Mesh-Centers`.
   - Watchpoint names should be describing the point, not be a generic name.
 - [ ] R.8: There is a cleaning script `clean.sh` to clean the complete case.
-- [ ] R.9: There is an individual run script `run.sh` for each solver. If this script takes additional options, there are default values.
+- [ ] R.9: There is an individual run script `run.sh` for each solver. If a script takes additional options, there are default values. The scripts should be called from the individual folders.
 
 ### Additional
 
