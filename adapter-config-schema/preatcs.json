@@ -4,7 +4,7 @@
   "metaConfigurator": {
     "aiExportFormats": {
       "OpenFOAM": "https://github.com/precice/tutorials/blob/develop/perpendicular-flap/fluid-openfoam/system/preciceDict",
-      "FMI": "https://github.com/precice/tutorials/blob/develop/oscillator/mass-left-fmi/precice-settings.json"
+      "ISSM": "https://github.com/precice/preeco-orga/blob/main/adapter-config-schema/export-formats/issm-example.yaml"
     }
   },
   "title": "preCICE Adapter and Tooling Configuration Schema (preATCS)",

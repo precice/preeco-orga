@@ -1,0 +1,18 @@
+issm-precice:
+  precice:
+    config-file: precice-config.xml
+    participant: ISSM
+  issm:
+    root-path: circle
+    model-name: circle
+  data:
+    mesh:
+      name: ISSM-Mesh
+      type: 2d-horizontal
+      layer: 0
+    recv:
+      - issm-name: Pressure
+        precice-name: Pressure
+    send:
+      - issm-name: Thickness
+        precice-name: IceThickness
