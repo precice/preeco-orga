@@ -1,6 +1,12 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
+  "metaConfigurator": {
+    "aiExportFormats": {
+      "OpenFOAM": "https://github.com/precice/tutorials/blob/develop/perpendicular-flap/fluid-openfoam/system/preciceDict",
+      "FMI": "https://github.com/precice/tutorials/blob/develop/oscillator/mass-left-fmi/precice-settings.json"
+    }
+  },
   "title": "preCICE Adapter and Tooling Configuration Schema (preATCS)",
   "description": "A JSON schema for configurations of adapters and tools within the preCICE ecosystem. Use the schema for validation and LLM-based auto-conversion to other configuration languages (e.g., OpenFOAM dictionary or YAML). The schema is developed as part of the preECO standardization, see https://precice.discourse.group/t/shape-the-future-of-the-precice-ecosystem-the-preeco-project/2019.",
   "properties": {
