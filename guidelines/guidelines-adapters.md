@@ -94,7 +94,7 @@ Aim to implement as many of these best practices as make sense for you. Each bri
 - [ ] A.10: The repository is ready to be integrated into the [preCICE system tests](https://precice.org/dev-docs-system-tests.html): A simulation can start using an unsupervised script and there is enough information to create entries under `component-templates/` and `components.yaml`.
 - [ ] A.11: The adapter is packaged either on the expected repositories of the respective solver community, or on [Spack](https://spack.io/) ([Spack packages](https://packages.spack.io/)).
 
-## An adapter example
+## Examples
 
 Some examples evaluating these guidelines:
 
