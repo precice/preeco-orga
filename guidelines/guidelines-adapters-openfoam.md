@@ -6,7 +6,7 @@ summary: A review of the OpenFOAM adapter using the contributing guidelines. Thi
 toc: true
 ---
 
-The OpenFOAM adapter conforms to the preCICE best practices and fulfills many of the additional criteria.
+The OpenFOAM adapter conforms to most of the preCICE best practices and fulfills many of the additional criteria.
 
 Metadata:
 
