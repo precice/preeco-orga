@@ -68,45 +68,101 @@
               "nodes"
             ]
           },
-          "write_data_names": {
+          "write_data": {
             "type": "array",
-            "description": "List of data fields to be written on this mesh.",
+            "description": "List of data fields to be written to this mesh.",
             "items": {
-              "type": "string",
-              "default": "Force",
-              "examples": [
-                "Force",
-                "Displacement",
-                "Velocity",
-                "Temperature",
-                "Heat-Flux",
-                "Force1",
-                "Force-Left",
-                "Heat-Transfer-Coefficient",
-                "Sink-Temperature"
-              ],
-              "minLength": 1,
-              "pattern": "^[A-Z][a-zA-Z0-9]*(?:-[A-Za-z0-9]+)*$"
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "description": "Name of the data as specified in the preCICE configuration.",
+                  "default": "Force",
+                  "examples": [
+                    "Force",
+                    "Displacement",
+                    "Velocity",
+                    "Temperature",
+                    "Heat-Flux",
+                    "Force1",
+                    "Force-Left",
+                    "Heat-Transfer-Coefficient",
+                    "Sink-Temperature"
+                  ],
+                  "minLength": 1,
+                  "pattern": "^[A-Z][a-zA-Z0-9]*(?:-[A-Za-z0-9]+)*$"
+                },
+                "solver_name": {
+                  "type": "string",
+                  "description": "Name of the data as used by the solver (optional).",
+                  "examples": [
+                    "temp",
+                    "T"
+                  ],
+                  "minLength": 1
+                },
+                "operation": {
+                  "type": "string",
+                  "description": "Operation applied by the adapter on the data (optional).",
+                  "examples": [
+                    "value",
+                    "gradient"
+                  ],
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "name"
+              ]
             },
             "minItems": 1
           },
-          "read_data_names": {
+          "read_data": {
             "type": "array",
-            "description": "List of data fields to be read on this mesh.",
+            "description": "List of data fields to be read from this mesh.",
             "items": {
-              "type": "string",
-              "default": "Force",
-              "examples": [
-                "Force",
-                "Displacement",
-                "Velocity",
-                "Temperature",
-                "Heat-Flux",
-                "Force1",
-                "Force-Left"
-              ],
-              "minLength": 1,
-              "pattern": "^[A-Z][a-zA-Z0-9]*(?:-[A-Za-z0-9]+)*$"
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "description": "Name of the data as specified in the preCICE configuration.",
+                  "default": "Force",
+                  "examples": [
+                    "Force",
+                    "Displacement",
+                    "Velocity",
+                    "Temperature",
+                    "Heat-Flux",
+                    "Force1",
+                    "Force-Left",
+                    "Heat-Transfer-Coefficient",
+                    "Sink-Temperature"
+                  ],
+                  "minLength": 1,
+                  "pattern": "^[A-Z][a-zA-Z0-9]*(?:-[A-Za-z0-9]+)*$"
+                },
+                "solver_name": {
+                  "type": "string",
+                  "description": "Name of the data as used by the solver (optional)",
+                  "examples": [
+                    "temp",
+                    "T"
+                  ],
+                  "minLength": 1
+                },
+                "operation": {
+                  "type": "string",
+                  "description": "Operation applied by the adapter on the data (optional)",
+                  "examples": [
+                    "value",
+                    "gradient"
+                  ],
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "name"
+              ]
             },
             "minItems": 1
           },
