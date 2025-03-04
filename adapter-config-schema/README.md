@@ -1,6 +1,6 @@
 # Adapter Config Schema
 
-This folder includes the preCICE Adapter and Tooling Configuration Schema (preATCS) `preatcs.json` together with a settings file for the [MetaConfigurator](https://github.com/MetaConfigurator) `meta_configurator_settings.json`.
+This folder includes the preCICE adapter configuration schema together with a settings file for the [MetaConfigurator](https://github.com/MetaConfigurator) `meta_configurator_settings.json`.
 
 A schema ...
 
@@ -13,4 +13,4 @@ A schema ...
 
 Tooling support is, for example, provided by the MetaConfigurator. You can open it with the following link:
 
-https://metaconfigurator.github.io/meta-configurator/?schema=https://github.com/precice/preeco-orga/blob/main/adapter-config-schema/preatcs.json&settings=https://github.com/precice/preeco-orga/blob/main/adapter-config-schema/meta_configurator_settings.json
+https://metaconfigurator.github.io/meta-configurator/?schema=https://github.com/precice/preeco-orga/blob/main/adapter-config-schema/precice_adapter_config_schema.json&settings=https://github.com/precice/preeco-orga/blob/main/adapter-config-schema/meta_configurator_settings.json
