@@ -79,6 +79,7 @@
           "read_data": {
             "type": "array",
             "description": "List of data fields to be read from this mesh.",
+            "items": {
               "$ref": "#/$defs/precice_data"
             },
             "minItems": 1
