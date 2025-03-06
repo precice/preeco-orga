@@ -72,97 +72,14 @@
             "type": "array",
             "description": "List of data fields to be written to this mesh.",
             "items": {
-              "type": "object",
-              "properties": {
-                "name": {
-                  "type": "string",
-                  "description": "Name of the data as specified in the preCICE configuration.",
-                  "default": "Force",
-                  "examples": [
-                    "Force",
-                    "Displacement",
-                    "Velocity",
-                    "Temperature",
-                    "Heat-Flux",
-                    "Force1",
-                    "Force-Left",
-                    "Heat-Transfer-Coefficient",
-                    "Sink-Temperature"
-                  ],
-                  "minLength": 1,
-                  "pattern": "^[A-Z][a-zA-Z0-9]*(?:-[A-Za-z0-9]+)*$"
-                },
-                "solver_name": {
-                  "type": "string",
-                  "description": "Name of the data as used by the solver (optional).",
-                  "examples": [
-                    "temp",
-                    "T"
-                  ],
-                  "minLength": 1
-                },
-                "operation": {
-                  "type": "string",
-                  "description": "Operation applied by the adapter on the data (optional).",
-                  "examples": [
-                    "value",
-                    "gradient"
-                  ],
-                  "minLength": 1
-                }
-              },
-              "required": [
-                "name"
-              ]
+              "$ref": "#/$defs/precice_data"
             },
             "minItems": 1
           },
           "read_data": {
             "type": "array",
             "description": "List of data fields to be read from this mesh.",
-            "items": {
-              "type": "object",
-              "properties": {
-                "name": {
-                  "type": "string",
-                  "description": "Name of the data as specified in the preCICE configuration.",
-                  "default": "Force",
-                  "examples": [
-                    "Force",
-                    "Displacement",
-                    "Velocity",
-                    "Temperature",
-                    "Heat-Flux",
-                    "Force1",
-                    "Force-Left",
-                    "Heat-Transfer-Coefficient",
-                    "Sink-Temperature"
-                  ],
-                  "minLength": 1,
-                  "pattern": "^[A-Z][a-zA-Z0-9]*(?:-[A-Za-z0-9]+)*$"
-                },
-                "solver_name": {
-                  "type": "string",
-                  "description": "Name of the data as used by the solver (optional)",
-                  "examples": [
-                    "temp",
-                    "T"
-                  ],
-                  "minLength": 1
-                },
-                "operation": {
-                  "type": "string",
-                  "description": "Operation applied by the adapter on the data (optional)",
-                  "examples": [
-                    "value",
-                    "gradient"
-                  ],
-                  "minLength": 1
-                }
-              },
-              "required": [
-                "name"
-              ]
+              "$ref": "#/$defs/precice_data"
             },
             "minItems": 1
           },
@@ -196,5 +113,51 @@
     "participant_name",
     "precice_config_file_name",
     "interfaces"
-  ]
+  ],
+  "$defs": {
+    "precice_data": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Name of the data as specified in the preCICE configuration.",
+          "default": "Force",
+          "examples": [
+            "Force",
+            "Displacement",
+            "Velocity",
+            "Temperature",
+            "Heat-Flux",
+            "Force1",
+            "Force-Left",
+            "Heat-Transfer-Coefficient",
+            "Sink-Temperature"
+          ],
+          "minLength": 1,
+          "pattern": "^[A-Z][a-zA-Z0-9]*(?:-[A-Za-z0-9]+)*$"
+        },
+        "solver_name": {
+          "type": "string",
+          "description": "Name of the data as used by the solver (optional).",
+          "examples": [
+            "temp",
+            "T"
+          ],
+          "minLength": 1
+        },
+        "operation": {
+          "type": "string",
+          "description": "Operation applied by the adapter on the data (optional).",
+          "examples": [
+            "value",
+            "gradient"
+          ],
+          "minLength": 1
+        }
+      },
+      "required": [
+        "name"
+      ]
+    }
+  }
 }
