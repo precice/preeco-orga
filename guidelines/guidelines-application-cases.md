@@ -57,7 +57,7 @@ Applying for research funding? Mention in your proposal that you are planning to
   - RBF data mapping
   - GPU computing
   - direct access
-  - indirect access
+  - just-in-time data mapping
   - geometric multi-scale data mapping
   - adaptive time stepping
   - waveform relaxation (order >= 2)
