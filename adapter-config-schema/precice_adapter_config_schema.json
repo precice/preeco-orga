@@ -13,6 +13,7 @@
     "participant_name": {
       "type": "string",
       "description": "Name of the participant.",
+      "default": "Fluid",
       "examples": [
         "Fluid",
         "Solid",
@@ -36,6 +37,7 @@
           "mesh_name": {
             "type": "string",
             "description": "Name of the mesh associated with this interface.",
+            "default": "Fluid-Mesh",
             "examples": [
               "Fluid-Mesh",
               "Solid-Mesh",
@@ -71,6 +73,7 @@
             "description": "List of data fields to be written on this mesh.",
             "items": {
               "type": "string",
+              "default": "Force",
               "examples": [
                 "Force",
                 "Displacement",
@@ -92,6 +95,7 @@
             "description": "List of data fields to be read on this mesh.",
             "items": {
               "type": "string",
+              "default": "Force",
               "examples": [
                 "Force",
                 "Displacement",
