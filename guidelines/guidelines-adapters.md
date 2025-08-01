@@ -71,7 +71,7 @@ We consider an adapter fulfilling all of these criteria as conforming to the pre
 - [ ] R.7: There is an issue tracker.
 - [ ] R.8: There is a code formatting specification (e.g., clang-format specification file).
 - [ ] R.9: The adapter has comments and error messages for at least its main building blocks and entry points. These comments are in English.
-- [ ] R.10: The configuration follows the [preCICE Adapter and Tooling Configuration Schema](https://github.com/precice/preeco-orga/blob/main/adapter-config-schema/preatcs.json), either directly in JSON or indirectly via LLM-based auto-conversion. Using the standard name `precice-adapter-config.json` is possible (if JSON). Validating a JSON configuration against a schema can be done with the Python library [jsonschema](https://pypi.org/project/jsonschema/) or via the [JTutor GUI](https://validationproofs.oa.r.appspot.com/), for example.
+- [ ] R.10: The configuration follows the [preCICE Adapter and Tooling Configuration Schema](https://github.com/precice/preeco-orga/blob/main/adapter-config-schema/preatcs.json), either directly in JSON or YAML or indirectly via auto-conversion. Using the standard name `precice-adapter-config.json` is possible (if JSON). Validating a JSON configuration against a schema can be done with the Python library [jsonschema](https://pypi.org/project/jsonschema/) or via the [JTutor GUI](https://validationproofs.oa.r.appspot.com/), for example.
 - [ ] R.11: Any vertices defined through `setMeshVertex` or `setMeshVertices` need to be real locations in space and the data written to the mesh needs to be data located there, i.e., it is not allowed to decode any other information.
 
 ### Additional
