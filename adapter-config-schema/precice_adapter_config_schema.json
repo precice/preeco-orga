@@ -73,16 +73,14 @@
             "description": "List of data fields to be written to this mesh.",
             "items": {
               "$ref": "#/$defs/precice_data"
-            },
-            "minItems": 1
+            }
           },
           "read_data": {
             "type": "array",
             "description": "List of data fields to be read from this mesh.",
             "items": {
               "$ref": "#/$defs/precice_data"
-            },
-            "minItems": 1
+            }
           },
           "is_received": {
             "type": "boolean",
