@@ -126,6 +126,7 @@
       "tau"
     ],
     "additionalProperties": {
+      "title": "Solver parameter",
       "oneOf": [
         {
           "title": "String property",
