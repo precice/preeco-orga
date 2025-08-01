@@ -22,7 +22,7 @@
       "minLength": 1,
       "pattern": "^[A-Z][a-zA-Z0-9-]*$"
     },
-    "precice_config_file_name": {
+    "precice_config_file_path": {
       "type": "string",
       "description": "Path to the preCICE configuration file relative to the current working directory of the coupled solver.",
       "default": "../precice-config.xml",
