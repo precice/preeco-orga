@@ -135,8 +135,8 @@
           "examples": [
             "root_path",
             "model_name",
-            "input_file_name",
-            "output_file_name"
+            "input_file_path",
+            "output_file_path"
           ]
         },
         {
