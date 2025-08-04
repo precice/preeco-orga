@@ -26,7 +26,7 @@ Required best practices:
 - [ ] R.5: [versioning scheme](https://github.com/gismo/gsPreCICE/releases/tag/v25.07.0) → Still need to add explaination in documentation page.
 - [x] R.6: [`CHANGELOG`](https://github.com/gismo/gsPreCICE/releases/tag/v25.07.0) 
 - [x] R.7: [issue tracker on GitHub](https://github.com/gismo/gsPreCICE/issues)
-- [ ] R.8: No code formatting specification file.
+- [x] R.8: [Formatting Guidelines](https://github.com/gismo/gismo/wiki/Contributing#code-style-and-formatting)
 - [x] R.9: See, for example, https://github.com/gismo/gsPreCICE/blob/main/gsPreCICE.h
 - [ ] R.10: Still requires porting of single fields, e.g. `preciceConfig` → `preciceConfigFileName`.
 - [x] R.11: See call to `addMesh` in https://github.com/gismo/gsPreCICE/blob/main/gsPreCICE.h
