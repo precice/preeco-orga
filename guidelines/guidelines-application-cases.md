@@ -150,3 +150,9 @@ Aim to implement as many of these best practices as make sense for you. Each bri
 - [ ] A.4: There is a "coarse" variant of the case to run on a laptop.
 - [ ] A.5: There are exports to replay each participant with [ASTE](https://precice.org/tooling-aste.html#replay-mode).
 - [ ] A.6: There is a related publication validating the scientific value of the case.
+- [ ] A.7: The `run.sh` script follows the following guidelines:
+  - uses `/usr/bin/env` for setting the shell and sets `bash` or simple `sh`: `#!/usr/bin/env bash`
+  - defines `set -e -u` for fault tolerance
+  - captures the output in log files
+  - automatically installs any Python in a new Python virtual environment and logs the installed packages with their versions in a file
+  
