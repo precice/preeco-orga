@@ -39,7 +39,7 @@ Additional criteria:
 - [x] A.4: yes, but only at compile-time
 - [x] A.5: [preprint](https://arxiv.org/abs/2505.19346)
 - [ ] A.6: There are no guideline for contribution.
-- [ ] A.7: There are no pull request template.
+- [x] A.7: ['PULL_REQUEST_TEMPLATE.md'](https://github.com/gismo/gsPreCICE/blob/main/.github/PULL_REQUEST_TEMPLATE.md).
 - [ ] A.8: There are no software architecture documentation.
 - [ ] A.9: There are no unit tests
 - [ ] A.10: Have not integrated into the system tests
