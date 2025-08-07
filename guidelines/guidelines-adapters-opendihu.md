@@ -6,7 +6,7 @@ summary: A review of the OpenDiHu adapter using the contributing guidelines. Thi
 toc: true
 ---
 
-The OpenFOAM adapter conforms to TODO: of the preCICE best practices and fulfills a few of the additional criteria. 
+The OpenDiHu adapter conforms to TODO: of the preCICE best practices and fulfills a few of the additional criteria. 
 
 Metadata:
 
