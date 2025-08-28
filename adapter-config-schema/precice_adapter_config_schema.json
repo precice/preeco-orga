@@ -113,6 +113,42 @@
     "precice_config_file_path",
     "interfaces"
   ],
+  "additionalProperties": {
+    "title": "Solver settings",
+    "description": "Optional solver specific settings. We recommend calling the main object after the solver, e.g. 'mbdyn'",
+    "type": "object",
+    "examples": [
+      "mbdyn",
+      "issm",
+      "code_aster",
+      "tau"
+    ],
+    "additionalProperties": {
+      "title": "Solver parameter",
+      "oneOf": [
+        {
+          "title": "String property",
+          "description": "An optional string setting, such as the location of the solver configuration file.",
+          "type": "string",
+          "examples": [
+            "root_path",
+            "model_name",
+            "input_file_path",
+            "output_file_path"
+          ]
+        },
+        {
+          "title": "Number property",
+          "description": "An optional number setting, such as the write interval of the solver.",
+          "type": "number",
+          "examples": [
+            "write-interval",
+            "delay"
+          ]
+        }
+      ]
+    }
+  },
   "$defs": {
     "precice_data": {
       "type": "object",
