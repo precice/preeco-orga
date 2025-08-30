@@ -6,7 +6,7 @@ summary: Quality guidelines and standards for application cases
 toc: true
 ---
 
-v0.2, published on December 9, 2024
+v0.3, published on TODO
 
 Are you preparing one or several application cases for a data publication to accompany your journal article? Follow these guidelines to make your cases easier to integrate with the rest of the preCICE ecosystem and, thus, easier to reproduce, to maintain, and to build upon.
 
@@ -89,7 +89,7 @@ If an application case includes several experiments, they can be structured in i
 We consider an application case fulfilling all of these criteria as conforming to the preCICE standards. This means that the case is running and documented and that it follows a standardized structure and style. Others can easily understand what the case does and could, potentially, run it with other solvers without modifications (e.g. of the preCICE configuration). The case feels part of the preCICE ecosystem.
 
 - [ ] R.1: All coupled solvers are accessible (open or commercial)
-- [ ] R.2: The case follows the following structure:
+- [ ] R.2: The case follows the following structure, having separate folders for each coupled solver:
 
     ```bash
     - <some-application-case>/        # or <some_experiment>
@@ -100,7 +100,7 @@ We consider an application case fulfilling all of these criteria as conforming t
       - <solver1>/
         - run.sh                      # run the solver (mandatory, see R.9)
         - clean.sh                    # individual clean script (optional)
-        - precice-adapter-config.json # adapter configuration (if necessary)
+        - precice-adapter-config.json # one adapter configuration file per solver (if necessary)
         - <the-solver1-files>
       - <solver2>/
         - run.sh
@@ -117,7 +117,7 @@ We consider an application case fulfilling all of these criteria as conforming t
     <m2n:sockets acceptor="Fluid" connector="Solid" exchange-directory=".." />
     ```
 
-- [ ] R.3: The README file follows the following structure:
+- [ ] R.3: There is a README file that includes at least the following elements:
   - Setup: the physics of the case (domain, boundary conditions, ...) including a simple sketch
   - Configuration: the preCICE configuration visualized by the [preCICE config visualizer](tooling-config-visualization.html)
   - Solvers: list of solvers, their dependencies, and potentially how to build them
@@ -125,8 +125,9 @@ We consider an application case fulfilling all of these criteria as conforming t
   - Post-processing: how to visualize and (at least) qualitatively check the results
   - Background (optional): how the case was created or any other information
   - References (optional)
+  - In case there are multiple cases in one archive, the archive includes an overview README file and a README file for each separate case.
 - [ ] R.4: The preCICE configuration is named `precice-config.xml`. Templated files (e.g. via jinja2) or symbolic links are possible and updated in an outer script (e.g. `run-all.sh`).
-- [ ] R.5: The preCICE configuration is formatted with [`format_precice_config.py`](https://github.com/precice/precice-pre-commit-hooks/blob/main/format_precice_config/format_precice_config.py). In the future, we will provide a more accessible solution.
+- [ ] R.5: The preCICE configuration is formatted using the [preCICE CLI](https://github.com/precice/cli).
 - [ ] R.6: The preCICE configuration passes the [offline check](tooling-builtin.html#configuration-check)
 - [ ] R.7: Names in the preCICE configuration follow the following conventions:
   - Participant names reflect the subdomain, not the solver, e.g. `Fluid` or `Left-Muscle`.
@@ -150,3 +151,10 @@ Aim to implement as many of these best practices as make sense for you. Each bri
 - [ ] A.4: There is a "coarse" variant of the case to run on a laptop.
 - [ ] A.5: There are exports to replay each participant with [ASTE](https://precice.org/tooling-aste.html#replay-mode).
 - [ ] A.6: There is a related publication validating the scientific value of the case.
+- [ ] A.7: The `run.sh` script follows the following guidelines:
+  - It uses `/usr/bin/env` for setting the shell and sets `bash` or simple `sh`: `#!/usr/bin/env bash`.
+  - It defines `set -e -u` for fault tolerance.
+  - It captures the output in log files.
+- [ ] A.8: Any provided Python codes define a `requirements.txt`.
+  - This also defines version restrictions.
+  - The respective `run.sh` script automatically installs any Python in a new Python virtual environment and logs the installed packages with their versions in a file.
