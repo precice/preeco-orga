@@ -6,7 +6,7 @@ summary: Quality guidelines and standards for application cases
 toc: true
 ---
 
-v0.2, published on December 9, 2024
+v0.3, published on TODO
 
 Are you preparing one or several application cases for a data publication to accompany your journal article? Follow these guidelines to make your cases easier to integrate with the rest of the preCICE ecosystem and, thus, easier to reproduce, to maintain, and to build upon.
 
