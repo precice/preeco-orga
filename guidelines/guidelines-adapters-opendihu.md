@@ -20,7 +20,7 @@ Metadata:
 Required best practices:
 
 - [ ] R.1: TODO:
-- [ ] R.2: There is no `README.md` for the adapter. The main information for the adapter is provided in [readthedocs](https://opendihu.readthedocs.io/en/latest/settings/precice_adapter.html).
+- [x] R.2: Since this is an integrated adapter, there is a [solver documentation page](https://opendihu.readthedocs.io/en/latest/settings/precice_adapter.html) about the adapter.
 - [x] R.3: [`MIT license`](https://github.com/opendihu/opendihu/blob/develop/LICENSE)
 - [x] R.4: The adapter is hosted in [GitHub](https://github.com/opendihu/opendihu/tree/develop/core/src/control/precice) inside the [OpenDiHu repository](https://github.com/opendihu/opendihu/tree/develop)(public)
 - [x] R.5: It follows the OpenDiHu versioning scheme, e.g., v1.5
