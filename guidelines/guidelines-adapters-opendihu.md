@@ -11,7 +11,7 @@ The OpenDiHu adapter conforms to TODO: of the preCICE best practices and fulfill
 Metadata:
 
 - M.1: OpenDiHu
-- M.2: TODO: not in the precice website... is readthedocs an option here?
+- M.2: https://opendihu.readthedocs.io/en/latest/settings/precice_adapter.html
 - M.3: MIT license
 - M.4: Carme Homs-Pons `<carme.homs-pons ipvs.uni-stuttgart.de>`
 - M.5: TODO:
