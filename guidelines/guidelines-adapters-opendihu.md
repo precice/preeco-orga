@@ -22,7 +22,7 @@ Required best practices:
 - [ ] R.1: TODO:
 - [x] R.2: Since this is an integrated adapter, there is a [solver documentation page](https://opendihu.readthedocs.io/en/latest/settings/precice_adapter.html) about the adapter.
 - [x] R.3: [`MIT license`](https://github.com/opendihu/opendihu/blob/develop/LICENSE)
-- [x] R.4: The adapter is hosted in [GitHub](https://github.com/opendihu/opendihu/tree/develop/core/src/control/precice) inside the [OpenDiHu repository](https://github.com/opendihu/opendihu/tree/develop)(public)
+- [x] R.4: The adapter is hosted on [GitHub](https://github.com/opendihu/opendihu/tree/develop/core/src/control/precice), as part of the [OpenDiHu repository](https://github.com/opendihu/opendihu/tree/develop)(public)
 - [x] R.5: It follows the OpenDiHu versioning scheme, e.g., v1.5
 - [ ] R.6: There is no dedicated `CHANGELOG.md` file. Only [release notes](https://github.com/opendihu/opendihu/releases/tag/v1.5) are available. 
 - [x] R.7: See tag `precice-adapter` on [GitHub issues](https://github.com/opendihu/opendihu/issues)
