@@ -32,7 +32,7 @@ Applying for research funding? Mention in your proposal that you are planning to
 - M.2: URL of the adapter
 - M.3: License
 - M.4: Contact
-- M.5: How to cite (DOI or full information)
+- M.5: How to cite, for attribution purposes (DOI or full information)
 - M.6: Type of adapter (curated list: stand-alone, library, patch, integrated, ...)
 
 ## Best practices
