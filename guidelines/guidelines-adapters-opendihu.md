@@ -25,7 +25,7 @@ Required best practices:
 - [x] R.4: The adapter is hosted on [GitHub](https://github.com/opendihu/opendihu/tree/develop/core/src/control/precice), as part of the [OpenDiHu repository](https://github.com/opendihu/opendihu/tree/develop)(public)
 - [x] R.5: It follows the OpenDiHu versioning scheme, e.g., v1.5
 - [ ] R.6: There is no dedicated `CHANGELOG.md` file. Only [release notes](https://github.com/opendihu/opendihu/releases/tag/v1.5) are available. 
-- [x] R.7: See tag `precice-adapter` on [GitHub issues](https://github.com/opendihu/opendihu/issues)
+- [x] R.7: See label `precice-adapter` on [GitHub issues](https://github.com/opendihu/opendihu/issues)
 - [x] R.8: [`.clang-format`](https://github.com/opendihu/opendihu/blob/develop/.clang-format)
 - [x] R.9: See, for example, https://github.com/opendihu/opendihu/blob/develop/core/src/control/precice/checkpoint.tpp
 - [ ] R.10: The adapter is configured directly inside the solver configuration files, see `"PreciceAdapter"` in https://github.com/opendihu/opendihu/blob/develop/examples/electrophysiology/fibers/fibers_contraction/with_tendons_precice/dirichlet_neumann/settings_muscle_dirichlet_neumann.py
