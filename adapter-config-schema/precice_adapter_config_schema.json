@@ -5,7 +5,7 @@
     "aiExportFormats": {
       "OpenFOAM": {
         "url": "https://github.com/precice/tutorials/blob/develop/perpendicular-flap/fluid-openfoam/system/preciceDict",
-        "description": "Export as an OpenFOAM preCICE Adapter Configuration using the FoamFile format."
+        "description": "Export as an OpenFOAM preCICE Adapter Configuration."
       },
       "ISSM": {
         "url": "https://github.com/precice/preeco-orga/blob/main/adapter-config-schema/export-formats/issm-example.yaml",
