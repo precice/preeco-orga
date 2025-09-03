@@ -28,7 +28,7 @@ Required best practices:
 - [x] R.7: See label `precice-adapter` on [GitHub issues](https://github.com/opendihu/opendihu/issues)
 - [x] R.8: [`.clang-format`](https://github.com/opendihu/opendihu/blob/develop/.clang-format)
 - [x] R.9: See, for example, https://github.com/opendihu/opendihu/blob/develop/core/src/control/precice/checkpoint.tpp
-- [ ] R.10: The adapter is configured directly inside the solver configuration files, see `"PreciceAdapter"` in https://github.com/opendihu/opendihu/blob/develop/examples/electrophysiology/fibers/fibers_contraction/with_tendons_precice/dirichlet_neumann/settings_muscle_dirichlet_neumann.py
+- [ ] R.10: The adapter is configured directly inside the solver configuration files, see `"PreciceAdapter"` in https://github.com/opendihu/opendihu/blob/develop/examples/electrophysiology/fibers/fibers_contraction/with_tendons_precice/dirichlet_neumann/settings_muscle_dirichlet_neumann.py (see an [issue](https://github.com/opendihu/opendihu/issues/105) for making the adapter configurable via a configuration file)
 - [x] R.11: See call to `setMeshVertices` in https://github.com/opendihu/opendihu/blob/develop/core/src/control/precice/initialize.tpp
 
 Additional criteria:
