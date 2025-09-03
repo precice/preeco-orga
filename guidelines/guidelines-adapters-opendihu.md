@@ -24,7 +24,7 @@ Required best practices:
 - [x] R.3: [`MIT license`](https://github.com/opendihu/opendihu/blob/develop/LICENSE)
 - [x] R.4: The adapter is hosted on [GitHub](https://github.com/opendihu/opendihu/tree/develop/core/src/control/precice), as part of the [OpenDiHu repository](https://github.com/opendihu/opendihu/tree/develop)(public)
 - [x] R.5: It follows the OpenDiHu versioning scheme, e.g., v1.5
-- [ ] R.6: Only [release notes](https://github.com/opendihu/opendihu/releases/tag/v1.5) are available. A `CHANGELOG.md` file will be added soon.
+- [ ] R.6: Only [release notes](https://github.com/opendihu/opendihu/releases/tag/v1.5) are available. A `CHANGELOG.md` file will be added soon (see the [respective issue](https://github.com/opendihu/opendihu/issues/106)).
 - [x] R.7: See label `precice-adapter` on [GitHub issues](https://github.com/opendihu/opendihu/issues)
 - [x] R.8: [`.clang-format`](https://github.com/opendihu/opendihu/blob/develop/.clang-format)
 - [x] R.9: See, for example, https://github.com/opendihu/opendihu/blob/develop/core/src/control/precice/checkpoint.tpp
