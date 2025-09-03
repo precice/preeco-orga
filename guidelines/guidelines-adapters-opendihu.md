@@ -37,7 +37,7 @@ Additional criteria:
 - [x] A.2: [repository](https://github.com/opendihu/opendihu/tree/develop/core/src/control/precice) is publicly accessible
 - [x] A.3: Yes, on [readthedocs](https://opendihu.readthedocs.io/en/latest/settings/precice_adapter.html)
 - [x] A.4: "release" or "debug" logging can be selected at compile time
-- [ ] A.5: Not yet
+- [ ] A.5: There is no validation study available yet.
 - [x] A.6: Some guidelines are specified in the [OpenDiHu documentation](https://opendihu.readthedocs.io/en/latest/developer/conventions.html)
 - [x] A.7: [`pull_request_template.md`](https://github.com/opendihu/opendihu/blob/develop/.github/pull_request_template.md)
 - [ ] A.8: There are no explicit guidelines for the adapter. Some useful information is given in the [OpenDiHu documentation](https://opendihu.readthedocs.io/en/latest/developer/conventions.html)
