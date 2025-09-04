@@ -86,7 +86,7 @@ Aim to implement as many of these best practices as make sense for you. Each bri
 - [ ] A.3: The documentation is rendered in a user-friendly way, either:
   - on precice.org (i.e., in `docs` subfolder, see [preCICE documentation of the documentation](https://precice.org/docs-meta-overview.html))
   - on another website
-- [ ] A.4: The logging is configurable (either at run or at compile time), with levels at least "no logging, release logging, and debug logging".
+- [ ] A.4: The logging is configurable (either at run or at compile time), with logging levels at least `release` and `debug`. If not already covered by the `release`, a `none` level could be an additional level. List the available levels in the compliance document.
 - [ ] A.5: There is a peer-reviewed paper (at least in pre-print state) with a validation study, with all data available.
 - [ ] A.6: There are contribution guidelines described in or linked from a `CONTRIBUTING.md` file.
 - [ ] A.7: There is a pull request template.
