@@ -156,7 +156,7 @@
         "flip-normal": {
           "type": "boolean",
           "title": "Use a non-standard assumption for the direction of fluxes.",
-          "description": "Flip the direction of the normal vector for flux-type fields. Default assumption: written fields face outwards, read fields face inwards. Set this to true if your adapter uses the opposite assumption.",
+          "description": "Flip the direction of the normal vector for flux-type fields. Default assumption: written fields face outwards, read fields face inwards.",
           "default": false
         }
       },
