@@ -100,7 +100,7 @@ We consider an application case fulfilling all of these criteria as conforming t
       - <solver1>/
         - run.sh                      # run the solver (mandatory, see R.9)
         - clean.sh                    # individual clean script (optional)
-        - precice-adapter-config.json # one adapter configuration file per solver (if necessary)
+        - precice-adapter-config.json # adapter configuration (if necessary)
         - <the-solver1-files>
       - <solver2>/
         - run.sh
@@ -125,7 +125,6 @@ We consider an application case fulfilling all of these criteria as conforming t
   - Post-processing: how to visualize and (at least) qualitatively check the results
   - Background (optional): how the case was created or any other information
   - References (optional)
-  - In case there are multiple cases in one archive, the archive includes an overview README file and a README file for each separate case.
 - [ ] R.4: The preCICE configuration is named `precice-config.xml`. Templated files (e.g. via jinja2) or symbolic links are possible and updated in an outer script (e.g. `run-all.sh`).
 - [ ] R.5: The preCICE configuration is formatted using the [preCICE CLI](https://github.com/precice/cli).
 - [ ] R.6: The preCICE configuration passes the [offline check](tooling-builtin.html#configuration-check)
