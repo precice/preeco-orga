@@ -6,7 +6,7 @@ summary: Quality guidelines and standards for preCICE adapters and related tools
 toc: true
 ---
 
-v0.2, published on December 9, 2024
+v0.3, published on September 5, 2025
 
 Are you developing a preCICE adapter or related tool? Follow these guidelines to make your adapter easier to publish, easier to integrate with the rest of the preCICE ecosystem, and more useful for the community.
 
@@ -32,7 +32,8 @@ Applying for research funding? Mention in your proposal that you are planning to
 - M.2: URL of the adapter
 - M.3: License
 - M.4: Contact
-- M.5: How to cite (DOI or full information)
+- M.5: How to cite, for attribution purposes (DOI or full information)
+   - In case no software publication or other academic publication is available, use repository URL and comment on the lack thereof.
 - M.6: Type of adapter (curated list: stand-alone, library, patch, integrated, ...)
 
 ## Best practices
@@ -46,7 +47,7 @@ The criteria follow at large the [FAIR criteria for research software](https://d
 We consider an adapter fulfilling all of these criteria as conforming to the preCICE standards. This means that the adapter is working, documented, plays well with other adapters from the community, and feels part of the preCICE ecosystem. Others can find, build, and run the code, and they are able to understand what is does. The preCICE maintainers are, if necessary, able to maintain the adapter (e.g. update it to newer preCICE versions).
 
 - [ ] R.1: The adapter is accompanied by one or more application cases to test it, covering an extensive part of the claimed functionality. These test cases must fulfill the required criteria of the [application case guidelines](community-guidelines-application-cases.html).
-- [ ] R.2: There is a `README.md` file with at least the following information (or links to related resources):
+- [ ] R.2: There is a `README.md` file (for integrated adapters: a solver documentation section) with at least the following information (or links to related resources):
   - [ ] application background and/or nature of coupling (e.g., surface vs. volume coupling; transient or steady-state; ...)
   - [ ] what data can be read and written for a coupling
   - [ ] which target solver versions are supported
@@ -86,14 +87,14 @@ Aim to implement as many of these best practices as make sense for you. Each bri
 - [ ] A.3: The documentation is rendered in a user-friendly way, either:
   - on precice.org (i.e., in `docs` subfolder, see [preCICE documentation of the documentation](https://precice.org/docs-meta-overview.html))
   - on another website
-- [ ] A.4: The logging is configurable, with levels at least "no logging, release logging, and debug logging".
+- [ ] A.4: The logging is configurable (either at run or at compile time), with logging levels at least `release` and `debug`. If not already covered by the `release`, a `none` level could be an additional level. List the available levels in the compliance document.
 - [ ] A.5: There is a peer-reviewed paper (at least in pre-print state) with a validation study, with all data available.
 - [ ] A.6: There are contribution guidelines described in or linked from a `CONTRIBUTING.md` file.
 - [ ] A.7: There is a pull request template.
 - [ ] A.8: There is documentation on how to extend the adapter (i.e., documentation about the software architecture).
 - [ ] A.9: There are unit tests to test components of the adapter, without running another simulation participant (and ideally, using the upcoming [general mocked interface](https://github.com/precice/preeco-orga/issues/4)).
-- [ ] A.10: The repository is ready to be integrated into the [preCICE system tests](https://precice.org/dev-docs-system-tests.html): A simulation can start using an unsupervised script and there is enough information to create entries under `component-templates/` and `components.yaml`.
-- [ ] A.11: The adapter is packaged either on the expected repositories of the respective solver community, or on [Spack](https://spack.io/) ([Spack packages](https://packages.spack.io/)).
+- [ ] A.10: The repository is ready to be integrated into the [preCICE system tests](https://precice.org/dev-docs-system-tests.html): A simulation can start using an unsupervised script and there is enough information to create entries under `component-templates/` and `components.yaml`. This mainly means that there is a clear script to run a case, and no human interaction is required during the run. Only the information needs to be provided, the case does not need to be already integrated.
+- [ ] A.11: The adapter is packaged either on the expected repositories of the respective solver community, or on [Spack](https://spack.io/) ([Spack packages](https://packages.spack.io/)). For integrated adapters, the adapter is included in main or add-on packages.
 
 ## Examples
 
