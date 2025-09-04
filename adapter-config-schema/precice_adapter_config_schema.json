@@ -1,5 +1,6 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/precice/preeco-orga/releases/download/v0.3/precice_adapter_config_schema.json",
   "type": "object",
   "metaConfigurator": {
     "aiExportFormats": {
