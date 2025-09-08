@@ -1,5 +1,5 @@
 ---
-title: G+Smo adapter guideline
+title: Standardization example - G+Smo adapter
 permalink: community-guidelines-adapters-gismo.html
 keywords: contribute, develop, adapters, standardization, preECO, G+Smo
 summary: A review of the G+Smo adapter using the contributing guidelines.
