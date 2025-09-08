@@ -37,7 +37,7 @@ Additional criteria:
 - [x] A.2: [repository](https://github.com/gismo/gsPreCICE) is publicly accessible
 - [x] A.3: on precice.org, see, https://precice.org/adapter-gismo.html
 - [x] A.4: yes, but only at compile-time
-- [x] A.5: [preprint](https://arxiv.org/abs/2505.19346)
+- [x] A.5: [preprint](https://doi.org/10.48550/arXiv.2505.19346)
 - [ ] A.6: There are no guideline for contribution.
 - [x] A.7: [`PULL_REQUEST_TEMPLATE.md`](https://github.com/gismo/gsPreCICE/blob/main/.github/PULL_REQUEST_TEMPLATE.md).
 - [ ] A.8: There is no software architecture documentation.
