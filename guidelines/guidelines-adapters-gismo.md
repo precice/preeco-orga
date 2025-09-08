@@ -14,7 +14,7 @@ Metadata:
 - M.2: https://precice.org/adapter-gismo.html
 - M.3: MPL-2.0
 - M.4: Jingya Li `<j.li-9@tudelft.nl>`, Hugo Verhelst `<hugomaarten.verhelst@unipv.it>`
-- M.5: https://arxiv.org/abs/2505.19346
+- M.5: https://doi.org/10.48550/arXiv.2505.19346
 - M.6: library
 
 Required best practices:
