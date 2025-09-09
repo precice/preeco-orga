@@ -44,4 +44,4 @@ Additional criteria:
 - [ ] A.8: No documentation specifically for extending the adapter. 
 - [x] A.9: Coverage of the unit test suite is reported in the GitLab project. Input data for a small number of unit tests is currently not publicly available.  
 - [ ] A.10: The adapter is not integrated into the preCICE system tests.
-- [ ] A.11: Complicated dependencies and build process of ISSM make deployment with a package manager difficult.
+- [ ] A.11: The adapter is not packaged, since ISSM itself is also not packaged.
