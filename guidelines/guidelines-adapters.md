@@ -101,5 +101,9 @@ Aim to implement as many of these best practices as make sense for you. Each bri
 Some examples evaluating these guidelines:
 
 - [OpenFOAM adapter](https://precice.org/community-guidelines-adapters-openfoam.html)
+- [OpenDiHu adapter](https://precice.org/community-guidelines-adapters-opendihu.html)
+- [ISSM adapter](https://precice.org/community-guidelines-adapters-issm.html)
+
+This list might be outdated. Find more in the sidebar.
 
 Note that these pages will be removed once the guidelines are converged and a better system is in place to render this information.
