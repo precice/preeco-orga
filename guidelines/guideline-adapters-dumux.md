@@ -44,7 +44,7 @@ Required best practices:
 - [x] R.7: [issue tracker on GitHub](https://github.com/precice/dumux-adapter/issues)
 - [x] R.8: [`.clang-format`](https://github.com/precice/dumux-adapter/blob/develop/.clang-format)
 - [x] R.9: See, for example, https://github.com/precice/dumux-adapter/blob/develop/dumux-precice/couplingadapter.hh
-- [ ] R.10: The adapter is configured directly inside the solvers, such as https://github.com/precice/dumux-adapter/blob/develop/examples/ff-pm/flow-over-cube-3d/main_pm-reversed.cc
+- [ ] R.10: The adapter is configured so far directly inside the solvers. Discussion about introducing in standard configuration file is going on [here](https://github.com/precice/dumux-adapter/issues/40)
 - [x] R.11: See call to `setMesh` in https://github.com/precice/dumux-adapter/blob/develop/dumux-precice/couplingadapter.cc
 
 Additional criteria:
