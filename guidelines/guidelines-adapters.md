@@ -6,7 +6,7 @@ summary: Quality guidelines and standards for preCICE adapters and related tools
 toc: true
 ---
 
-v0.3, published on September 5, 2025
+v0.4, published on January 26, 2026
 
 Are you developing a preCICE adapter or related tool? Follow these guidelines to make your adapter easier to publish, easier to integrate with the rest of the preCICE ecosystem, and more useful for the community.
 
