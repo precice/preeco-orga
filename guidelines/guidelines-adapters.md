@@ -35,6 +35,7 @@ Applying for research funding? Mention in your proposal that you are planning to
 - M.5: How to cite, for attribution purposes (DOI or full information)
    - In case no software publication or other academic publication is available, use repository URL and comment on the lack thereof.
 - M.6: Type of adapter (curated list: stand-alone, library, patch, integrated, ...)
+- M.7: Supported preCICE version
 
 ## Best practices
 
