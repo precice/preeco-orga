@@ -16,6 +16,7 @@ Metadata:
 - M.4: Carme Homs-Pons `<carme.homs-pons ipvs.uni-stuttgart.de>`
 - M.5: Reference academic publication by [Maier et al](https://www.sciencedirect.com/science/article/pii/S187775032400084X?via%3Dihub).
 - M.6: Integrated
+- M.7: preCICE v3
 
 Required best practices:
 

@@ -16,6 +16,7 @@ Metadata:
 - M.4: Gerasimos Chourdakis `<gerasimos.chourdakis ipvs.uni-stuttgart.de>`, David Schneider `<david.schneider ipvs.uni-stuttgart.de>`
 - M.5: https://doi.org/10.51560/ofj.v3.88
 - M.6: library
+- M.7: preCICE v3
 
 Required best practices:
 
