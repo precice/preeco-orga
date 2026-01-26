@@ -16,6 +16,7 @@ Metadata:
 - M.4: Daniel Abele `<daniel.abele dlr.de>`, Angelika Humbert `<angelika.humbert awi.de>`
 - M.5: https://doi.org/10.5194/egusphere-2025-3345
 - M.6: stand-alone
+- M.7: preCICE v3
 
 Required best practices:
 

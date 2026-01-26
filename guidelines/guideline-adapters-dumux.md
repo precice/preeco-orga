@@ -16,6 +16,7 @@ Metadata:
 - M.4: Ishaan Desai `<ishaan.desai ipvs.uni-stuttgart.de>`, Jun Chen `<jun.chen ipvs.uni-stuttgart.de>`
 - M.5: (There is no code-specific publication related to the DuMux adapter available yet.)
 - M.6: Library
+- M.7: preCICE v3
 
 Required best practices:
 
