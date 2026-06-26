@@ -1,6 +1,8 @@
 ---
 title: Standardization example - DuMux adapter
 permalink: community-guidelines-adapters-dumux.html
+aliases:
+  - /community-guidelines-adapters-dumux.html
 keywords: contribute, develop, adapters, standardization, preECO, DuMux
 summary: A review of the DuMux adapter using the contributing guidelines. This is a work-in-progress that will eventually be moved.
 toc: true
