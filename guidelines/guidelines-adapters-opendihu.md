@@ -1,6 +1,8 @@
 ---
 title: Standardization example - OpenDiHu adapter
 permalink: community-guidelines-adapters-opendihu.html
+aliases:
+  - /community-guidelines-adapters-opendihu.html
 keywords: contribute, develop, adapters, standardization, preECO, OpenDiHu
 summary: A review of the OpenDiHu adapter using the contributing guidelines. This is a work-in-progress that will eventually be moved.
 toc: true

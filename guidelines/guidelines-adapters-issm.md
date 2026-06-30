@@ -1,6 +1,8 @@
 ---
 title: Standardization example - ISSM adapter
 permalink: community-guidelines-adapters-issm.html
+aliases:
+  - /community-guidelines-adapters-issm.html
 keywords: contribute, develop, adapters, standardization, preECO, ISSM
 summary: A review of the ISSM adapter using the contributing guidelines. This is a work-in-progress that will eventually be moved.
 toc: true

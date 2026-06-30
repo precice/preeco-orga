@@ -1,6 +1,8 @@
 ---
 title: Standardization example - OpenFOAM adapter
 permalink: community-guidelines-adapters-openfoam.html
+aliases:
+  - /community-guidelines-adapters-openfoam.html
 keywords: contribute, develop, adapters, standardization, preECO, OpenFOAM
 summary: A review of the OpenFOAM adapter using the contributing guidelines. This is a work-in-progress that will eventually be moved.
 toc: true

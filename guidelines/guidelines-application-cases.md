@@ -1,6 +1,8 @@
 ---
 title: Guidelines for application cases
 permalink: community-guidelines-application-cases.html
+aliases:
+  - /community-guidelines-application-cases.html
 keywords: contribute, develop, application cases, tutorials, standardization, preECO
 summary: Quality guidelines and standards for application cases
 toc: true
