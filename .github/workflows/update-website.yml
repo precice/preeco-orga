@@ -2,9 +2,8 @@ name: Update website
 on:
   push:
     branches:
-      - 'develop'
-    paths:
-      - 'docs/**'
+      - 'main'
+
 jobs:
   trigger:
     runs-on: ubuntu-latest
