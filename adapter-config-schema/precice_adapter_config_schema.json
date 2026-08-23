@@ -55,16 +55,16 @@
             "minLength": 6,
             "pattern": "^[A-Z][a-zA-Z0-9]*(?:-[A-Z][a-zA-Z0-9]*)*-Mesh(?:-[A-Z][a-zA-Z0-9]*)*$"
           },
-          "patches": {
+          "location_names": {
             "type": "array",
-            "description": "List of mesh or geometry patches (boundary or volume) to locate the interface.",
+            "description": "List of mesh or geometry locations (such as boundary patches or volume domains) to locate the interface.",
             "items": {
               "type": "string",
               "minLength": 1
             },
             "minItems": 1
           },
-          "location": {
+          "location_type": {
             "type": "string",
             "description": "Further specification of mesh locations",
             "minLength": 1,
